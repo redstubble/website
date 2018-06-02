@@ -20,6 +20,7 @@
 
 .App-intro {
   font-size: large;
+  padding: 0 20px;
 }
 
 @keyframes App-logo-spin {
@@ -37,4 +38,21 @@
 .link-no-decoration:active {
   text-decoration: none;
   color: inherit;
+}
+
+svg {
+  transition: 0.4s;
+}
+
+.icons > a:first-child > svg:hover {
+  fill: #8e2d2d;
+}
+
+svg:hover {
+  transition: 0.7s;
+  fill: #4472b9;
+}
+
+.icons > a:last-child > svg:hover {
+  fill: #e18728;
 }

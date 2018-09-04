@@ -2,7 +2,10 @@ import React from 'react';
 import '../components/header-clouds.scss';
 
 export default () => (
-  <div className={['header-banner', 'clouds'].join(' ')}>
+  <div
+    style={{ backgroundImage: 'linear-gradient(#87cefa, rgb(208, 240, 255))' }}
+    className={['header-banner', 'clouds'].join(' ')}
+  >
     <div className={['cloud', 'one'].join(' ')} data-speed="35000" />
     <div
       className={['cloud', 'two'].join(' ')}
@@ -11,7 +14,9 @@ export default () => (
     />{' '}
     <h1 className={'redstubble-logo'}>
       <a href="#animation">
-        RE<span>D</span>STUBBLE
+        RE
+        <span>D</span>
+        STUBBLE
       </a>
     </h1>
     <div className={['cloud', 'three'].join(' ')} data-speed="40000" />

@@ -2,15 +2,18 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Projects from '../../pages/projects';
 import Resume from '../../pages/resume';
+import Experience from '../../pages/experience';
 import PageType from '../../utils/pageType';
 import { red, blue, orange } from '../../utils/colors';
 
 class CustomRouter extends React.Component {
   getComponent() {
-    if (this.state.currentLivePage === PageType.index) return <div />;
-    if (this.state.currentLivePage === PageType.projects) return <Projects />;
-    if (this.state.currentLivePage === PageType.experience) return null;
-    if (this.state.currentLivePage === PageType.resume) return <Resume />;
+    debugger;
+    if (this.props.currentLivePage === PageType.index) return <div />;
+    if (this.props.currentLivePage === PageType.projects) return <Projects />;
+    if (this.props.currentLivePage === PageType.experience)
+      return <Experience />;
+    if (this.props.currentLivePage === PageType.resume) return <Resume />;
   }
 
   render() {
@@ -27,7 +30,7 @@ class CustomRouter extends React.Component {
             borderTopColor: orange,
           }}
         />
-        {this.state && this.state.currentLivePage && this.getComponent()}
+        {this.props.currentLivePage && this.getComponent()}
         <div
           style={{
             width: '100%',
@@ -42,7 +45,6 @@ class CustomRouter extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-  debugger;
   return {
     currentLivePage: state.page,
   };

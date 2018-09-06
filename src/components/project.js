@@ -22,7 +22,7 @@ class CodeCard extends Component {
           </Dimmer>
           <Image
             centered
-            style={{ height: '180px', padding: '20px', objectFit: 'cover' }}
+            style={{ height: '180px', padding: '20px', objectFit: 'contain' }}
             src={ImgSrc}
           />
         </Dimmer.Dimmable>

@@ -5,16 +5,16 @@ const initialPageState = {
   page: PageType.index,
 };
 
-function changePageState(state = initialPageState, action) {
+const changePageState = (state = initialPageState, action) => {
   switch (action.type) {
     case UPDATE_PAGE_STATE:
       return {
         ...state,
-        page: action.state.page,
+        page: action.page,
       };
     default:
       return state;
   }
-}
+};
 
 export default changePageState;

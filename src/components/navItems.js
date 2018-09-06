@@ -25,15 +25,18 @@ class NavItems extends Component {
     },
   };
 
-  render({ page, resetPage, buttonHandler } = this.props) {
+  render() {
     return (
       <Container style={{ padding: '20px' }}>
         <Grid centered>
-          <Grid.Column mobile={16} tablet={5} computer={4} textAlign="center">
+          <Grid.Column
+            mobile={16}
+            tablet={5}
+            computer={4}
+            textAlign="center"
+            style={{ height: '5rem' }}
+          >
             <NavItem type={PageType.projects} color={red} title="Projects" />
-          </Grid.Column>
-          <Grid.Column mobile={16} tablet={5} computer={4} textAlign="center">
-            <NavItem type={PageType.projects} color={blue} title="Experience" />
           </Grid.Column>
           <Grid.Column
             mobile={16}
@@ -42,7 +45,20 @@ class NavItems extends Component {
             textAlign="center"
             style={{ height: '5rem' }}
           >
-            <NavItem type={PageType.projects} color={orange} title="Resume" />
+            <NavItem
+              type={PageType.experience}
+              color={blue}
+              title="Experience"
+            />
+          </Grid.Column>
+          <Grid.Column
+            mobile={16}
+            tablet={5}
+            computer={4}
+            textAlign="center"
+            style={{ height: '5rem' }}
+          >
+            <NavItem type={PageType.resume} color={orange} title="Resume" />
           </Grid.Column>
         </Grid>
         <div

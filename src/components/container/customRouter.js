@@ -8,7 +8,6 @@ import { red, blue, orange } from '../../utils/colors';
 
 class CustomRouter extends React.Component {
   getComponent() {
-    debugger;
     if (this.props.currentLivePage === PageType.index) return <div />;
     if (this.props.currentLivePage === PageType.projects) return <Projects />;
     if (this.props.currentLivePage === PageType.experience)

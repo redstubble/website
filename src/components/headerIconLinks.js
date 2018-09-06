@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaMedium, FaFileTextO } from 'react-icons/lib/fa';
 import styled from 'styled-components';
+import { red, blue, orange } from '../utils/colors';
 
 const NoDecorationLink = {
   textDecoration: 'none',
@@ -12,7 +13,7 @@ const StyledFaGithub = styled(FaGithub)`
   margin: 0 30px;
   &:hover {
     transition: 0.7s;
-    fill: #8e2d2d;
+    fill: ${red};
   }
 `;
 
@@ -21,7 +22,7 @@ const StyledFaMedium = styled(FaMedium)`
   margin: 0 30px;
   &:hover {
     transition: 0.7s;
-    fill: #4472b9;
+    fill: ${blue};
   }
 `;
 
@@ -30,7 +31,7 @@ const StyledFaFileTextO = styled(FaFileTextO)`
   transition: 0.4s;
   &:hover {
     transition: 0.7s;
-    fill: #e18728;
+    fill: ${orange};
   }
 `;
 

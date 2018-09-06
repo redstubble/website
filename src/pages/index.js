@@ -9,6 +9,7 @@ import PageType from '../utils/pageType';
 import NavItems from '../components/navItems';
 import Footer from '../components/footer';
 import Router from '../components/container/customRouter';
+
 // import devToolsEnhancer from 'remote-redux-devtools';
 
 const store = createStore(rootReducer);

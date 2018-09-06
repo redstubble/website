@@ -1,4 +1,7 @@
 import React from 'react';
+import HeaderTitle from '../components/headerTitle';
+import HeaderIconLinks from './headerIconLinks';
+
 import '../components/header-clouds.scss';
 
 export default () => (
@@ -12,13 +15,8 @@ export default () => (
       data-speed="45000"
       data-delay="15000"
     />{' '}
-    <h1 className={'redstubble-logo'}>
-      <a href="#animation">
-        RE
-        <span>D</span>
-        STUBBLE
-      </a>
-    </h1>
+    <HeaderTitle />
+    <HeaderIconLinks />
     <div className={['cloud', 'three'].join(' ')} data-speed="40000" />
     <div
       className={['cloud', 'four'].join(' ')}

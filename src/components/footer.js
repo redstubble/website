@@ -4,8 +4,8 @@ import { Container, Grid, Segment } from 'semantic-ui-react';
 
 export default () => (
   <Container>
-    <Segment.Group>
-      <Segment color="orange" raised compact>
+    <Segment.Group style={{ margin: '20px 0' }}>
+      <Segment>
         <Grid centered>
           <Grid.Column width={6} textAlign="right">
             Lingua Franca:
@@ -29,7 +29,6 @@ export default () => (
           </Grid.Column>
         </Grid>
       </Segment>
-      <Segment />
     </Segment.Group>
   </Container>
 );

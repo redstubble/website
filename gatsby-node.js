@@ -67,7 +67,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
+exports.onCreateWebpackConfig = ({ config, stage }) => {
   if (stage == "develop"){
       config.devServer = {
         hot: false, 

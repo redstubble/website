@@ -67,12 +67,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
-exports.onCreateWebpackConfig = ({ config, stage }) => {
-  if (stage == "develop"){
-      config.devServer = {
-        hot: false, 
-        inline: false,
-    }
-  };
-  return config;
-};
+// exports.onCreateWebpackConfig = ({ config, stage }) => {
+//   if (stage == "develop"){
+//       config.devServer = {
+//         hot: false, 
+//         inline: false,
+//     }
+//   };
+//   return config;
+// };

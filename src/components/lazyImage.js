@@ -19,7 +19,7 @@ export default class LazyImage extends React.Component {
       <div>
         <Dimmer.Dimmable blurring dimmed={!this.state.show}>
           <Dimmer active={!this.state.show}>
-            <Button inverted content="Loading..." />
+            <Loader />
           </Dimmer>
           <Image onLoad={this.showImage} {...this.props} />
         </Dimmer.Dimmable>

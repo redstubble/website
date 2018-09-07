@@ -29,7 +29,9 @@ class CustomRouter extends React.Component {
       <div style={{ margin: '15px 0' }}>
         <LineBreak />
         {this.props.currentLivePage && this.getComponent()}
-        <LineBreak />
+        <LineBreak
+          style={{ borderTopColor: blue, transform: 'skew(-1.5deg, 1.5deg)' }}
+        />
       </div>
     );
   }

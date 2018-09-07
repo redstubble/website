@@ -4,7 +4,7 @@ import { Button } from 'semantic-ui-react';
 import ReactCardFlip from 'react-card-flip';
 import { connect } from 'react-redux';
 import PageType from '../utils/pageType';
-import { updatePageState } from '../actions';
+import { updatePageState } from '../redux-actions';
 
 class NavItem extends React.Component {
   state = {};

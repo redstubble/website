@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import Link from 'gatsby-link';
 import {
   Grid,
   Container,
   Dimmer,
   Loader,
   Icon,
-  Menu,
   Button,
 } from 'semantic-ui-react';
-import Resume from '../includes/resume.pdf';
+import Resume from '../resources/resume.pdf';
 
 const NoDecorationLink = {
   textDecoration: 'none',
@@ -29,8 +27,10 @@ class ResumeViewer extends Component {
   componentDidMount() {
     if (typeof window !== 'undefined') {
       try {
+        debugger;
         const reactPdf = require('react-pdf');
         const docPdf = require('react-pdf/dist/entry.webpack');
+        debugger;
         this.document = docPdf.Document;
         this.page = reactPdf.Page;
       } catch (e) {
@@ -71,7 +71,7 @@ class ResumeViewer extends Component {
             }
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
-            <Page width={this.state.elWidth} pageNumber={pageNumber} />
+            {/* <Page width={this.state.elWidth} pageNumber={pageNumber} /> */}
           </Document>
           {pageNumber} of {numPages}
         </Grid>

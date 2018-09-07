@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
-import Projects from '../../pages/projects';
-import Resume from '../../pages/resume';
-import Experience from '../../pages/experience';
-import PageType from '../../utils/pageType';
-import { red, blue, orange } from '../../utils/colors';
+import Projects from '../pages/projects';
+import Resume from '../pages/resume';
+import Experience from '../pages/experience';
+import PageType from '../utils/pageType';
+import { red, blue, orange } from '../utils/colors';
 
 const LineBreak = styled.div`
   width: 100%;

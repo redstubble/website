@@ -1,4 +1,4 @@
-import { UPDATE_PAGE_STATE } from '../actions';
+import { UPDATE_PAGE_STATE } from '../redux-actions';
 import PageType from '../utils/pageType';
 
 const initialPageState = {

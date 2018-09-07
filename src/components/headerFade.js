@@ -41,6 +41,6 @@ export default ({ children } = this.props) => (
       // maxHeight: '80px',
     }}
   >
-    <div>{children}</div>
+    {children}
   </div>
 );

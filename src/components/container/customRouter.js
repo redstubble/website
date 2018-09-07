@@ -1,10 +1,19 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import styled from 'styled-components';
 import Projects from '../../pages/projects';
 import Resume from '../../pages/resume';
 import Experience from '../../pages/experience';
 import PageType from '../../utils/pageType';
 import { red, blue, orange } from '../../utils/colors';
+
+const LineBreak = styled.div`
+  width: 100%;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: ${orange};
+  transform: skew(1.5deg, -1.5deg);
+`;
 
 class CustomRouter extends React.Component {
   getComponent() {
@@ -17,27 +26,10 @@ class CustomRouter extends React.Component {
 
   render() {
     return (
-      <div style={{ marginTop: '10px' }}>
-        <div
-          style={{
-            width: '100%',
-            borderTopWidth: '2px',
-            borderTopStyle: 'solid',
-            borderTopColor: orange,
-            borderTopWidth: '2px',
-            borderTopStyle: 'solid',
-            borderTopColor: orange,
-          }}
-        />
+      <div style={{ margin: '15px 0' }}>
+        <LineBreak />
         {this.props.currentLivePage && this.getComponent()}
-        <div
-          style={{
-            width: '100%',
-            borderTopWidth: '2px',
-            borderTopStyle: 'solid',
-            borderTopColor: orange,
-          }}
-        />
+        <LineBreak />
       </div>
     );
   }

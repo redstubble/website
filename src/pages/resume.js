@@ -30,7 +30,8 @@ class ResumeViewer extends Component {
     if (typeof window !== 'undefined') {
       try {
         const reactPdf = require('react-pdf');
-        this.document = reactPdf.Document;
+        const docPdf = require('react-pdf/dist/entry.webpack');
+        this.document = docPdf.Document;
         this.page = reactPdf.Page;
       } catch (e) {
         console.error(e);
@@ -55,12 +56,12 @@ class ResumeViewer extends Component {
         </Dimmer>
       );
     }
-    const Page = this.Page;
-    const Document = this.Document;
+    const Page = this.page;
+    const Document = this.document;
 
     return (
       <Container id="pdf-container">
-        <Grid centered style={{ margin: '10px 0' }}>
+        <Grid centered style={{ margin: '15px 0' }}>
           <Document
             file={Resume}
             loading={

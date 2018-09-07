@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, Icon, Image, Dimmer, Button } from 'semantic-ui-react';
+import LazyImage from '../components/lazyImage';
 
 class CodeCard extends Component {
   state = {
@@ -20,7 +21,7 @@ class CodeCard extends Component {
           <Dimmer active={this.state.hover}>
             <Button inverted content={ButtonTitle} />
           </Dimmer>
-          <Image
+          <LazyImage
             centered
             style={{ height: '180px', padding: '20px', objectFit: 'contain' }}
             src={ImgSrc}

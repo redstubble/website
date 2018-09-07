@@ -8,14 +8,6 @@ module.exports = {
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
     {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/utils/typography.js',
-      },
-    },
-    `gatsby-plugin-styled-components`,
-    `gatsby-plugin-sass`,
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,

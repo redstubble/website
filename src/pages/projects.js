@@ -1,8 +1,8 @@
-import React from 'react';
-import { Grid, Container } from 'semantic-ui-react';
-import Project from '../components/project';
-import PSAImg from '../images/PSAPreview.png';
-import GlenOrouaImg from '../images/GlenOrouaSchool.png';
+import React from 'react'
+import { Grid, Container } from 'semantic-ui-react'
+import Project from '../components/project'
+import PSAImg from '../images/PSAPreview.png'
+import GlenOrouaImg from '../images/GlenOrouaSchool.png'
 
 export default () => (
   <Container style={{ margin: '20px 0' }}>
@@ -18,4 +18,4 @@ export default () => (
       </Grid.Column>
     </Grid>
   </Container>
-);
+)

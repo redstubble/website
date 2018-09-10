@@ -34,7 +34,7 @@
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.0.5",
-    "react-pdf": "^3.0.5",
+    "react-pdf": "^4.0.0-beta",
     "react-redux": "^5.0.7",
     "react-typography": "^0.16.13",
     "redux": "^4.0.0-0",
@@ -48,6 +48,7 @@
     "typography-theme-wordpress-2016": "^0.15.10"
   },
   "devDependencies": {
+    "circular-json": "^0.5.5",
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.7.0",
     "gh-pages": "^1.1.0",

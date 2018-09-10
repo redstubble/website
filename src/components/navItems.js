@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { Container, Grid } from 'semantic-ui-react';
-import NavItem from './navItem';
-import { red, blue, orange } from '../utils/colors';
-import PageType from '../utils/pageType';
+import React, { Component } from 'react'
+import { Container, Grid } from 'semantic-ui-react'
+import NavItem from './navItem'
+import { red, blue, orange } from '../utils/colors'
+import PageType from '../utils/pageType'
 
 class NavItems extends Component {
-  state = {};
+  state = {}
 
   pages = {
     Projects: {
@@ -23,7 +23,7 @@ class NavItems extends Component {
       color: orange,
       pageType: PageType.resume,
     },
-  };
+  }
 
   render() {
     return (
@@ -46,9 +46,9 @@ class NavItems extends Component {
             style={{ height: '5rem' }}
           >
             <NavItem
-              type={PageType.experience}
+              type={PageType.experiences}
               color={blue}
-              title="Experience"
+              title="Experiences"
             />
           </Grid.Column>
           <Grid.Column
@@ -68,8 +68,8 @@ class NavItems extends Component {
           }}
         />
       </Container>
-    );
+    )
   }
 }
 
-export default NavItems;
+export default NavItems

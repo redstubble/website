@@ -2340,6 +2340,10 @@ circular-json@^0.3.1:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.3.tgz#815c99ea84f6809529d2f45791bdf82711352d66"
 
+circular-json@^0.5.5:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.5.5.tgz#64182ef359042d37cd8e767fc9de878b1e9447d3"
+
 clap@^1.0.9:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/clap/-/clap-1.2.3.tgz#4f36745b32008492557f46412d66d50cb99bce51"
@@ -6895,6 +6899,10 @@ make-dir@^1.0.0:
   dependencies:
     pify "^3.0.0"
 
+make-event-props@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/make-event-props/-/make-event-props-1.0.0.tgz#c6f7c409fdd51bc58edb262124b343faf028a62a"
+
 mamacro@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/mamacro/-/mamacro-0.0.3.tgz#ad2c9576197c9f1abf308d0787865bd975a3f3e4"
@@ -8103,12 +8111,12 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-pdfjs-dist@2.0.305:
-  version "2.0.305"
-  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.0.305.tgz#53b0f9805ae101d7ef742d020d03578ee9781b06"
+pdfjs-dist@^2.0.550:
+  version "2.0.550"
+  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.0.550.tgz#52a5bd05d8b250206ccd2843209cfa3b8f1ea4ae"
   dependencies:
     node-ensure "^0.0.0"
-    worker-loader "^1.1.0"
+    worker-loader "^2.0.0"
 
 pend@~1.2.0:
   version "1.2.0"
@@ -8837,15 +8845,16 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
-react-pdf@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/react-pdf/-/react-pdf-3.0.5.tgz#989406cae67e8194328f4653d376dfcb5e77fe9d"
+react-pdf@^4.0.0-beta:
+  version "4.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/react-pdf/-/react-pdf-4.0.0-beta.4.tgz#95fe7cd43a04b34cd26a07838334869e0460ba7d"
   dependencies:
     babel-runtime "^6.26.0"
     lodash.once "^4.1.1"
+    make-event-props "^1.0.0"
     merge-class-names "^1.1.1"
-    pdfjs-dist "2.0.305"
-    prop-types "^15.6.1"
+    pdfjs-dist "^2.0.550"
+    prop-types "^15.6.2"
 
 react-redux@^5.0.7:
   version "5.0.7"
@@ -11402,9 +11411,9 @@ worker-farm@^1.5.2:
   dependencies:
     errno "~0.1.7"
 
-worker-loader@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/worker-loader/-/worker-loader-1.1.1.tgz#920d74ddac6816fc635392653ed8b4af1929fd92"
+worker-loader@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/worker-loader/-/worker-loader-2.0.0.tgz#45fda3ef76aca815771a89107399ee4119b430ac"
   dependencies:
     loader-utils "^1.0.0"
     schema-utils "^0.4.0"

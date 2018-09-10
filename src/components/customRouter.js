@@ -1,11 +1,12 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import styled from 'styled-components';
-import Projects from '../pages/projects';
-import Resume from '../pages/resume';
-import Experience from '../pages/experience';
-import PageType from '../utils/pageType';
-import { red, blue, orange } from '../utils/colors';
+import React from 'react'
+import { connect } from 'react-redux'
+import styled from 'styled-components'
+import Projects from '../pages/projects'
+import NewProjects from '../pages/newProjects'
+import Resume from '../pages/resume'
+import Experiences from '../pages/experiences'
+import PageType from '../utils/pageType'
+import { red, blue, orange } from '../utils/colors'
 
 const LineBreak = styled.div`
   width: 100%;
@@ -13,15 +14,15 @@ const LineBreak = styled.div`
   border-top-style: solid;
   border-top-color: ${orange};
   transform: skew(1.5deg, -1.5deg);
-`;
+`
 
 class CustomRouter extends React.Component {
   getComponent() {
-    if (this.props.currentLivePage === PageType.index) return <div />;
-    if (this.props.currentLivePage === PageType.projects) return <Projects />;
-    if (this.props.currentLivePage === PageType.experience)
-      return <Experience />;
-    if (this.props.currentLivePage === PageType.resume) return <Resume />;
+    if (this.props.currentLivePage === PageType.index) return <div />
+    if (this.props.currentLivePage === PageType.projects) return <Projects />
+    if (this.props.currentLivePage === PageType.experiences)
+      return <Experiences />
+    if (this.props.currentLivePage === PageType.resume) return <Resume />
   }
 
   render() {
@@ -33,17 +34,17 @@ class CustomRouter extends React.Component {
           style={{ borderTopColor: blue, transform: 'skew(-1.5deg, 1.5deg)' }}
         />
       </div>
-    );
+    )
   }
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
     currentLivePage: state.page,
-  };
-};
+  }
+}
 
 export default connect(
   mapStateToProps,
-  null,
-)(CustomRouter); // passes dispatch to component.
+  null
+)(CustomRouter) // passes dispatch to component.

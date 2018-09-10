@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {
   Grid,
   Container,
@@ -6,45 +6,43 @@ import {
   Loader,
   Icon,
   Button,
-} from 'semantic-ui-react';
-import Resume from '../resources/resume.pdf';
+} from 'semantic-ui-react'
+import Resume from '../assets/resume.pdf'
 
 const NoDecorationLink = {
   textDecoration: 'none',
   color: 'inherit',
-};
+}
 
 class ResumeViewer extends Component {
   state = {
     numPages: null,
     pageNumber: 1,
-  };
+  }
 
   onDocumentLoadSuccess = ({ numPages }) => {
-    this.setState({ numPages });
-  };
+    this.setState({ numPages })
+  }
 
   componentDidMount() {
     if (typeof window !== 'undefined') {
       try {
-        debugger;
-        const reactPdf = require('react-pdf');
-        const docPdf = require('react-pdf/dist/entry.webpack');
-        debugger;
-        this.document = docPdf.Document;
-        this.page = reactPdf.Page;
+        const reactPdf = require('react-pdf')
+        const docPdf = require('react-pdf/dist/entry.webpack')
+        this.document = docPdf.Document
+        this.page = reactPdf.Page
       } catch (e) {
-        console.error(e);
+        console.error(e)
       }
     }
 
     this.setState({
       elWidth: document.getElementById('pdf-container').clientWidth,
-    });
+    })
   }
 
   render() {
-    const { pageNumber, numPages } = this.state;
+    const { pageNumber, numPages } = this.state
     if (
       typeof this.page === 'undefined' ||
       typeof this.document === 'undefined' ||
@@ -54,10 +52,11 @@ class ResumeViewer extends Component {
         <Dimmer active>
           <Loader content="Loading" />
         </Dimmer>
-      );
+      )
     }
-    const Page = this.page;
-    const Document = this.document;
+
+    const Page = this.page
+    const Document = this.document
 
     return (
       <Container id="pdf-container">
@@ -71,7 +70,7 @@ class ResumeViewer extends Component {
             }
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
-            {/* <Page width={this.state.elWidth} pageNumber={pageNumber} /> */}
+            <Page width={this.state.elWidth} pageNumber={pageNumber} />
           </Document>
           {pageNumber} of {numPages}
         </Grid>
@@ -81,7 +80,7 @@ class ResumeViewer extends Component {
               if (pageNumber > 1)
                 this.setState({
                   pageNumber: pageNumber - 1,
-                });
+                })
             }}
             labelPosition="left"
             icon
@@ -94,7 +93,7 @@ class ResumeViewer extends Component {
               if (pageNumber < numPages)
                 this.setState({
                   pageNumber: pageNumber + 1,
-                });
+                })
             }}
             icon
             labelPosition="right"
@@ -112,8 +111,8 @@ class ResumeViewer extends Component {
         </p>
         <div style={{ height: '10px' }} />
       </Container>
-    );
+    )
   }
 }
 
-export default ResumeViewer;
+export default ResumeViewer

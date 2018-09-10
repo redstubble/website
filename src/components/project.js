@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import { Card, Icon, Image, Dimmer, Button } from 'semantic-ui-react';
-import LazyImage from '../components/lazyImage';
+import React, { Component } from 'react'
+import { Card, Icon, Image, Dimmer, Button } from 'semantic-ui-react'
+import LazyImage from '../components/lazyImage'
 
 class CodeCard extends Component {
   state = {
     hover: false,
-  };
+  }
 
-  setHover = (bool) => this.setState({ hover: bool });
+  setHover = bool => this.setState({ hover: bool })
 
   render({ ButtonTitle, ImgSrc } = this.props) {
     return (
@@ -19,7 +19,7 @@ class CodeCard extends Component {
           dimmed={this.state.hover}
         >
           <Dimmer active={this.state.hover}>
-            <Button inverted content={ButtonTitle} />
+            <Button inverted content={ButtonTitle} onClick={() => {}} />
           </Dimmer>
           <LazyImage
             centered
@@ -28,8 +28,8 @@ class CodeCard extends Component {
           />
         </Dimmer.Dimmable>
       </Card>
-    );
+    )
   }
 }
 
-export default CodeCard;
+export default CodeCard

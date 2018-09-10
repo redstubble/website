@@ -9,7 +9,7 @@ class CodeCard extends Component {
 
   setHover = bool => this.setState({ hover: bool })
 
-  render({ ButtonTitle, ImgSrc } = this.props) {
+  render({ PageLink, ButtonTitle, ImgSrc } = this.props) {
     return (
       <Card style={{ width: '100%' }}>
         <Dimmer.Dimmable
@@ -19,7 +19,11 @@ class CodeCard extends Component {
           dimmed={this.state.hover}
         >
           <Dimmer active={this.state.hover}>
-            <Button inverted content={ButtonTitle} onClick={() => {}} />
+            <Button
+              inverted
+              content={ButtonTitle}
+              onClick={() => (window.location.href = PageLink)}
+            />
           </Dimmer>
           <LazyImage
             centered

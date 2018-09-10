@@ -19,7 +19,7 @@ const LineBreak = styled.div`
 class CustomRouter extends React.Component {
   getComponent() {
     if (this.props.currentLivePage === PageType.index) return <div />
-    if (this.props.currentLivePage === PageType.projects) return <Projects />
+    if (this.props.currentLivePage === PageType.projects) return <NewProjects />
     if (this.props.currentLivePage === PageType.experiences)
       return <Experiences />
     if (this.props.currentLivePage === PageType.resume) return <Resume />

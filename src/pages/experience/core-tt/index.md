@@ -1,9 +1,12 @@
 ---
-company: HotHouse
-address: 'Hothouse, Nelson, NZ'
+type: 'Experience'
+linkImage: './CoreLogo.png'
+title: 'Core TT'
+company: Core TT
+address: 'Nelson, NZ'
 position: 'Developer, Development Operations'
-languages: 'PHP, BASH, JS, CSS'
-frameworks: 'Linux(Centos, Ubuntu). Silverstripe'
+languages: 'C#, SQL, JS'
+frameworks: 'ASP.NET, Azure'
 period: 'Sep 2013-Sep 2015 (Full-Time) && May 2018 - Current (Contract)'
 ---
 
@@ -12,4 +15,4 @@ Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMSenv
 Oh, and here's a great quote from this Wikipedia on
 [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
 
-![Chinese Salty Egg](./HothouseLogo.jpg)
+![Chinese Salty Egg](./CoreLogo.png)

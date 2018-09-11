@@ -1,9 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link,graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
-
-import Bio from '../components/Bio'
+import Header from '../components/header'
 import Layout from '../components/layout'
 import { rhythm, scale } from '../utils/typography'
 
@@ -38,8 +37,7 @@ class ProjectPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
-
+        <Header />
         <ul
           style={{
             display: 'flex',

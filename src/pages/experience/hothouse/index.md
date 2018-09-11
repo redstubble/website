@@ -1,4 +1,7 @@
 ---
+type: 'Experience'
+linkImage: './HothouseLogo.jpg'
+title: Hothouse
 company: HotHouse
 address: 'Hothouse, Nelson, NZ'
 position: 'Developer, Development Operations'

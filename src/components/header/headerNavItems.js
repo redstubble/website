@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Container, Grid } from 'semantic-ui-react'
-import NavItem from './navItem'
-import { red, blue, orange } from '../utils/colors'
-import PageType from '../utils/pageType'
+import NavItem from './headerNavItem'
+import { red, blue, orange } from '../../utils/colors'
+import PageType from '../../utils/pageType'
 
 class NavItems extends Component {
   state = {}

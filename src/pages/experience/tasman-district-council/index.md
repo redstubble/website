@@ -1,4 +1,7 @@
 ---
+type: 'Experience'
+linkImage: './TasmanDC.jpg'
+title: Tasman District Council
 company: Tasman District Council
 address: '189 Queen St, Richmond 7020'
 position: 'Developer, Development Operations'

@@ -1,25 +1,71 @@
 import React from 'react'
+import { StaticQuery, graphql, Link } from 'gatsby'
+import get from 'lodash/get'
+import { rhythm } from '../utils/typography'
 import { Grid, Container } from 'semantic-ui-react'
-import Project from '../components/project'
-import HHLogo from '../images/logos/HothouseLogo.jpg'
-import TDCLogo from '../images/logos/TasmanDC.jpg'
-import CoreLogo from '../images/logos/CoreLogo.png'
+import PreviewItem from '../components/menuPreviewItem'
 
 export default () => (
-  <Container style={{ margin: '20px 0' }}>
-    <Grid centered>
-      <Grid.Column mobile={16} tablet={5} computer={5} textAlign="center">
-        <Project ButtonTitle="HotHouse - Silverstripe" ImgSrc={HHLogo} />
-      </Grid.Column>
-      <Grid.Column mobile={16} tablet={5} computer={5} textAlign="center">
-        <Project ButtonTitle="TDC - Silverstripe / ASP.NET" ImgSrc={TDCLogo} />
-      </Grid.Column>
-      <Grid.Column mobile={16} tablet={5} computer={5} textAlign="center">
-        <Project
-          ButtonTitle="Core-TT - ASP.NET / Javascript / D3"
-          ImgSrc={CoreLogo}
-        />
-      </Grid.Column>
-    </Grid>
-  </Container>
+  <StaticQuery
+    query={graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+            description
+          }
+        }
+        allMarkdownRemark(
+          filter: { frontmatter: { type: { eq: "Experience" } } }
+          sort: { fields: [frontmatter___date], order: DESC }
+        ) {
+          edges {
+            node {
+              excerpt
+              fields {
+                slug
+              }
+              frontmatter {
+                date(formatString: "DD MMMM, YYYY")
+                title
+                linkImage {
+                  absolutePath
+                  relativePath
+                  publicURL
+                }
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={data => {
+      const content = data.allMarkdownRemark.edges.map(({ node }) => {
+        const title = get(node, 'frontmatter.title') || node.fields.slug
+        return (
+          <Grid.Column
+            mobile={16}
+            tablet={8}
+            computer={5}
+            textAlign="center"
+            key={node.fields.slug}
+          >
+            <PreviewItem
+              ButtonTitle={title}
+              ImgSrc={node.frontmatter.linkImage.publicURL}
+              PageLink={node.fields.slug}
+            />
+            <small>{node.frontmatter.date}</small>
+            <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+          </Grid.Column>
+        )
+      })
+
+      return (
+        <Container style={{ margin: '20px 0' }}>
+          <Grid centered>{content}</Grid>
+        </Container>
+      )
+    }}
+  />
 )

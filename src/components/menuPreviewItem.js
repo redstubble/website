@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Card, Icon, Image, Dimmer, Button } from 'semantic-ui-react'
-import LazyImage from '../components/lazyImage'
+import LazyImage from './lazyImage'
 
 class CodeCard extends Component {
   state = {

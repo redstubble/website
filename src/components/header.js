@@ -1,27 +1,14 @@
-import React from 'react';
-import HeaderTitle from '../components/headerTitle';
-import HeaderIconLinks from './headerIconLinks';
-
-import '../components/header-clouds.scss';
+import React from 'react'
+import Header from './header/header-banner'
+import HeaderBanner from './header/header-banner'
+import HeaderFade from './header/headerFade'
+import NavItems from './header/headerNavItems'
 
 export default () => (
-  <div
-    style={{ backgroundImage: 'linear-gradient(#87cefa, rgb(208, 240, 255))' }}
-    className={['header-banner', 'clouds'].join(' ')}
-  >
-    <div className={['cloud', 'one'].join(' ')} data-speed="35000" />
-    <div
-      className={['cloud', 'two'].join(' ')}
-      data-speed="45000"
-      data-delay="15000"
-    />{' '}
-    <HeaderTitle />
-    <HeaderIconLinks />
-    <div className={['cloud', 'three'].join(' ')} data-speed="40000" />
-    <div
-      className={['cloud', 'four'].join(' ')}
-      data-speed="38000"
-      data-delay="20000"
-    />
+  <div>
+    <Header />
+    <HeaderFade>
+      <NavItems />
+    </HeaderFade>
   </div>
-);
+)

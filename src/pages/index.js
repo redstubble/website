@@ -1,31 +1,44 @@
 import React from 'react'
 import 'semantic-ui-css/semantic.css'
-import { createStore } from 'redux'
-import { Provider } from 'react-redux'
-import rootReducer from '../redux-reducers'
+import Helmet from 'react-helmet'
+import { Link, graphql } from 'gatsby'
+import get from 'lodash/get'
+import Layout from '../components/layout'
 import Header from '../components/header'
-import PageType from '../utils/pageType'
 import Footer from '../components/footer'
 import Router from '../components/customRouter'
-import get from 'lodash/get'
-
-// import devToolsEnhancer from 'remote-redux-devtools';
-
-// const store = createStore(rootReducer)
-// const store = createStore(rootReducer, devToolsEnhancer());
 
 class Index extends React.Component {
   render() {
+    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
+    const siteDescription = get(
+      this,
+      'props.data.site.siteMetadata.description'
+    )
     return (
-      // <Provider store={store}>
-        <div>
-          <Header {...this.props} />
+      <Layout location={this.props.location}>
+      <Helmet
+        htmlAttributes={{ lang: 'en' }}
+        meta={[{ name: 'description', content: siteDescription }]}
+        title={siteTitle}
+      />
+          <Header />
           <Router />
           <Footer />
-        </div>
-      // </Provider>
+      </Layout>
     )
   }
 }
 
 export default Index
+
+export const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
+  }
+`

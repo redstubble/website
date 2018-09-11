@@ -3,10 +3,11 @@ import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import Layout from '../components/layout'
 import { rhythm, scale } from '../utils/typography'
 
-class ProjectPostTemplate extends React.Component {
+class PostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
@@ -20,6 +21,7 @@ class ProjectPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
+        <Header />
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -37,7 +39,6 @@ class ProjectPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Header />
         <ul
           style={{
             display: 'flex',
@@ -63,15 +64,17 @@ class ProjectPostTemplate extends React.Component {
             </li>
           )}
         </ul>
+        <Footer />
+
       </Layout>
     )
   }
 }
 
-export default ProjectPostTemplate
+export default PostTemplate
 
 export const pageQuery = graphql`
-  query ProjectPostBySlug($slug: String!) {
+  query BlogPostBySlug($slug: String!) {
     site {
       siteMetadata {
         title

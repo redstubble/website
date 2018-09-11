@@ -2,8 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
-import Header from '../components/header'
-import Footer from '../components/footer'
 import Layout from '../components/layout'
 import { rhythm, scale } from '../utils/typography'
 
@@ -21,18 +19,7 @@ class PostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        <Header />
         <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: 'block',
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
@@ -64,7 +51,8 @@ class PostTemplate extends React.Component {
             </li>
           )}
         </ul>
-        <Footer />
+
+
 
       </Layout>
     )

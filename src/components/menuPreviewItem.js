@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
-import { Card, Icon, Image, Dimmer, Button } from 'semantic-ui-react'
+import { Card, Dimmer, Button } from 'semantic-ui-react'
+import { connect } from 'react-redux'
+import { navigate } from "gatsby"
+import { updatePostState, updatePageState } from '../redux-actions'
+import PageType from '../utils/pageType'
 import LazyImage from './lazyImage'
 
 class CodeCard extends Component {
@@ -9,7 +13,7 @@ class CodeCard extends Component {
 
   setHover = bool => this.setState({ hover: bool })
 
-  render({ PageLink, ButtonTitle, ImgSrc } = this.props) {
+  render({ Type, PageLink, ButtonTitle, ImgSrc } = this.props) {
     return (
       <Card style={{ width: '100%' }}>
         <Dimmer.Dimmable
@@ -22,7 +26,10 @@ class CodeCard extends Component {
             <Button
               inverted
               content={ButtonTitle}
-              onClick={() => (window.location.href = PageLink)}
+              onClick={() => {
+                navigate(PageLink);
+                this.props.dispatchPostState(ButtonTitle);
+                }}
             />
           </Dimmer>
           <LazyImage
@@ -36,4 +43,15 @@ class CodeCard extends Component {
   }
 }
 
-export default CodeCard
+
+const mapDispatchToProps = dispatch => {
+  return { 
+    dispatchPageState: type => dispatch(updatePageState(type)),
+    dispatchPostState: page => dispatch(updatePostState(page)) 
+  }
+}
+
+export default connect(
+  null,
+  mapDispatchToProps
+)(CodeCard) // passes dispatch to component.

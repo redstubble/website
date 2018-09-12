@@ -74,7 +74,7 @@ class ResumeViewer extends Component {
           </Document>
           {pageNumber} of {numPages}
         </Grid>
-        <p>
+        <p style={{textAlign: 'center'}}>
           <Button
             onClick={() => {
               if (pageNumber > 1)
@@ -102,7 +102,7 @@ class ResumeViewer extends Component {
             <Icon name="right arrow" />
           </Button>
         </p>
-        <p>
+        <p style={{textAlign: 'center'}}>
           <a style={NoDecorationLink} href={Resume} download="resume.pdf">
             <Button icon>
               <Icon name="download" />

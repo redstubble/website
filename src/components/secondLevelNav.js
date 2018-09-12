@@ -1,9 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Button } from 'semantic-ui-react';
 import ReactCardFlip from 'react-card-flip';
-import { connect } from 'react-redux';
-import PageType from '../utils/pageType';
 
 class NavItem extends React.Component {
   state = {};

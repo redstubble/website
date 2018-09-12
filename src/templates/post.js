@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
+import { Container } from 'semantic-ui-react';
 import Layout from '../components/layout'
 import { rhythm, scale } from '../utils/typography'
 
@@ -19,7 +20,8 @@ class PostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <Container>
+        <h1 style={{textAlign:'center', margin: '15px 0' }}>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
@@ -51,7 +53,7 @@ class PostTemplate extends React.Component {
             </li>
           )}
         </ul>
-
+</Container>
 
 
       </Layout>

@@ -3,18 +3,17 @@ import styled from 'styled-components'
 import { Button } from 'semantic-ui-react'
 import ReactCardFlip from 'react-card-flip'
 import { connect } from 'react-redux'
+import { navigate } from "gatsby"
+
 import PageType from '../../utils/pageType'
-import { updatePageState } from '../../redux-actions'
-import { store } from '../../redux-reducers'
+import { updatePageState, updatePostState } from '../../redux-actions'
 
 class NavItem extends React.Component {
-  state = {}
-
   render({ type, title, color } = this.props) {
     if (type) {
       return (
         <ReactCardFlip
-          isFlipped={this.props.currentLivePage === this.props.type}
+          isFlipped={this.props.page === this.props.type}
         >
           <Button
             key="front"
@@ -25,7 +24,11 @@ class NavItem extends React.Component {
             }}
             size="large"
             onClick={() => {
+              this.props.dispatchPostState(null)
               this.props.dispatchPageState(type)
+              if (window.location.pathname !== '/') {
+                navigate('/');
+              }
             }}
           >
             {title}
@@ -43,7 +46,13 @@ class NavItem extends React.Component {
             }}
             size="large"
             onClick={() => {
-              this.props.dispatchPageState(PageType.index)
+              if (!this.props.post) {
+                this.props.dispatchPageState(PageType.index)
+              }
+              this.props.dispatchPostState(null)
+              if (window.location.pathname !== '/') {
+                navigate('/');
+              }
             }}
           >
             {title}
@@ -57,12 +66,16 @@ class NavItem extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    currentLivePage: state.page,
+    page: state.page,
+    post: state.post
   }
 }
 
 const mapDispatchToProps = dispatch => {
-  return { dispatchPageState: page => dispatch(updatePageState(page)) }
+  return { 
+    dispatchPageState: page => dispatch(updatePageState(page)),
+    dispatchPostState: page => dispatch(updatePostState(page)) 
+   }
 }
 
 export default connect(

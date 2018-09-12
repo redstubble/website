@@ -8,19 +8,20 @@ import { red, blue, orange } from '../utils/colors'
 
 class CustomRouter extends React.Component {
   getComponent() {
-    if (this.props.currentLivePage === PageType.index) return <div />
-    if (this.props.currentLivePage === PageType.projects) return <Projects />
-    if (this.props.currentLivePage === PageType.experiences)
+    if (this.props.page === PageType.index) return <div />
+    if (this.props.page === PageType.projects) return <Projects />
+    if (this.props.page === PageType.experiences)
       return <Experiences />
-    if (this.props.currentLivePage === PageType.resume) return <Resume />
+    if (this.props.page === PageType.resume) return <Resume />
   }
 
-  render = () =>  (this.props.currentLivePage && this.getComponent())
+  render = () =>  (this.props.page && this.getComponent())
 }
 
 const mapStateToProps = state => {
   return {
-    currentLivePage: state.page,
+    page: state.page,
+    post: state.post
   }
 }
 

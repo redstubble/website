@@ -1,14 +1,19 @@
-import React from 'react'
-import Header from './header/header-banner'
+import React, {Component} from 'react'
 import HeaderBanner from './header/header-banner'
 import HeaderFade from './header/headerFade'
-import NavItems from './header/headerNavItems'
+import NavItems from './header/header-nav-items-container'
 
-export default () => (
-  <div>
-    <Header />
-    <HeaderFade>
+class Header extends Component{
+  render()  {
+    return (
+      <div>
+      <HeaderBanner />
+      <HeaderFade>
       <NavItems />
-    </HeaderFade>
-  </div>
-)
+      </HeaderFade>
+    </div>
+    )
+  }  
+}
+
+export default Header

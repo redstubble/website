@@ -1,6 +1,6 @@
 export default Object.freeze({
-  index: Symbol('index'),
-  projects: Symbol('projects'),
-  experiences: Symbol('experience'),
-  resume: Symbol('resume'),
+  index: 'index',
+  projects: 'projects',
+  experiences: 'experiences',
+  resume: 'resume',
 })

@@ -2,6 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import get from 'lodash/get'
 import { rhythm } from '../utils/typography'
+import PageType from '../utils/pageType'
 import { Grid, Container } from 'semantic-ui-react'
 import PreviewItem from '../components/menuPreviewItem'
 
@@ -54,6 +55,7 @@ export default () => (
               ButtonTitle={title}
               ImgSrc={node.frontmatter.linkImage.publicURL}
               PageLink={node.fields.slug}
+              type={PageType['experiences']}
             />
             <small>{node.frontmatter.date}</small>
             <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />

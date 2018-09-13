@@ -1,6 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Redstubble]]></title><description><![CDATA[Website]]></description><link>https://redstubble.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 12 Sep 2018 23:54:28 GMT</lastBuildDate><item><title><![CDATA[Core TT]]></title><description><![CDATA[Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMSenvironment. Work included liaising with clients to…]]></description><link>https://redstubble.com/experience/core-tt/</link><guid isPermaLink="false">https://redstubble.com/experience/core-tt/</guid><content:encoded>&lt;p&gt;Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMSenvironment. Work included liaising with clients to functionality of proposed websites andcorresponding price points. Also joint lead in the linux server environment (Bash) usingVirtualmin maintaining sites, email servers etc.Silverstripe (PHP), Dev Ops (Linux Server, Bash, Virtualmin), JS, SASS, HTML&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Redstubble]]></title><description><![CDATA[Website]]></description><link>https://redstubble.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 13 Sep 2018 00:45:26 GMT</lastBuildDate><item><title><![CDATA[Core TT]]></title><description><![CDATA[Role Developing software for SAAS with Azure cloud, mapping and implementing new cargo
+tracking solutions. Managing MVC architecture…]]></description><link>https://redstubble.com/experience/core-tt/</link><guid isPermaLink="false">https://redstubble.com/experience/core-tt/</guid><content:encoded>&lt;h1&gt;Role&lt;/h1&gt;
+&lt;p&gt;Developing software for SAAS with Azure cloud, mapping and implementing new cargo
+tracking solutions. Managing MVC architecture, updating existing applications. Lead on
+implementing visualisation tools D3.&lt;/p&gt;
+&lt;h2&gt;Technologies&lt;/h2&gt;
+&lt;p&gt;ASP&lt;span&gt;.&lt;/span&gt;NET, ASP.Core (C#), Javascript (D3), SQL, Azure, TFS, Git&lt;/p&gt;
+&lt;h2&gt;Company&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.core-tt.com/&quot;&gt;Core Transport Technologies&lt;/a&gt; intends to shake up Transportation and Supply Chain Management with innovative technology solutions for tracking of cargo, postal products, and Unit Load Devices (ULD). Our goal is to disrupt old technology and put the power of big data analytics into the hands of the customer and at the same time the customer’s customer.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -21,7 +27,7 @@
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Chinese Salty Egg&quot;
+        alt=&quot;Core TT&quot;
         title=&quot;&quot;
         src=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-c3353.png&quot;
         srcset=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-19ba3.png 148w,
@@ -33,9 +39,14 @@
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hothouse]]></title><description><![CDATA[Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMSenvironment. Work included liaising with clients to…]]></description><link>https://redstubble.com/experience/hothouse/</link><guid isPermaLink="false">https://redstubble.com/experience/hothouse/</guid><content:encoded>&lt;p&gt;Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMSenvironment. Work included liaising with clients to functionality of proposed websites andcorresponding price points. Also joint lead in the linux server environment (Bash) usingVirtualmin maintaining sites, email servers etc.Silverstripe (PHP), Dev Ops (Linux Server, Bash, Virtualmin), JS, SASS, HTML&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hothouse]]></title><description><![CDATA[Role Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMS
+environment. Work included liaising with clients to…]]></description><link>https://redstubble.com/experience/hothouse/</link><guid isPermaLink="false">https://redstubble.com/experience/hothouse/</guid><content:encoded>&lt;h1&gt;Role&lt;/h1&gt;
+&lt;p&gt;Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMS
+environment. Work included liaising with clients to functionality of proposed websites and corresponding price points. Also joint lead in the linux server environment (Bash) using Virtualmin maintaining sites, email servers etc.&lt;/p&gt;
+&lt;h2&gt;Technologies:&lt;/h2&gt;
+&lt;p&gt;Silverstripe (PHP), Dev Ops (Linux Server Bash, Virtualmin), JS, SASS, HTML&lt;/p&gt;
+&lt;h2&gt;Company&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.hothouse.co.nz/&quot;&gt;Hothouse&lt;/a&gt; are ‘Designers for Business’, providing full graphic design and branding, promotion and web design, development and hosting services to our valued clients nationwide, and around the world.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -56,7 +67,7 @@
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Chinese Salty Egg&quot;
+        alt=&quot;Hothouse Logo&quot;
         title=&quot;&quot;
         src=&quot;/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-f8fb9.jpg&quot;
         srcset=&quot;/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-e8976.jpg 148w,
@@ -70,9 +81,16 @@
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tasman District Council]]></title><description><![CDATA[Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMSenvironment. Work included liaising with clients to…]]></description><link>https://redstubble.com/experience/tasman-district-council/</link><guid isPermaLink="false">https://redstubble.com/experience/tasman-district-council/</guid><content:encoded>&lt;p&gt;Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMSenvironment. Work included liaising with clients to functionality of proposed websites andcorresponding price points. Also joint lead in the linux server environment (Bash) usingVirtualmin maintaining sites, email servers etc.Silverstripe (PHP), Dev Ops (Linux Server, Bash, Virtualmin), JS, SASS, HTML&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tasman District Council]]></title><description><![CDATA[Role Contract developing and support existing Council business systems and applications.
+Design and develop custom databases and…]]></description><link>https://redstubble.com/experience/tasman-district-council/</link><guid isPermaLink="false">https://redstubble.com/experience/tasman-district-council/</guid><content:encoded>&lt;h1&gt;Role&lt;/h1&gt;
+&lt;p&gt;Contract developing and support existing Council business systems and applications.
+Design and develop custom databases and applications as required by Council staff and
+as directed by the senior members of the Business Systems team.&lt;/p&gt;
+&lt;h2&gt;Technologies&lt;/h2&gt;
+&lt;p&gt;ASP.NET (C#). Silverstripe (PHP), Javascript, SQL, MySQL, TFS, Git&lt;/p&gt;
+&lt;h2&gt;Company&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.tasman.govt.nz&quot;&gt;Tasman District Council&lt;/a&gt; is a public benefit entity whose primary objective is to provide goods and services for community or social benefit. This page explains the Council’s role and responsibilities.&lt;/p&gt;
+&lt;p&gt;Councils are required to make decisions and set directions for promoting the social, cultural, environmental and economic wellbeing of their communities. They also have a responsibility to lead, provide for and contribute to the good governance of their communities.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -100,46 +118,6 @@
 /static/TasmanDC-026151815973cf245b61ca255b684e43-63df2.jpg 295w,
 /static/TasmanDC-026151815973cf245b61ca255b684e43-f8fb9.jpg 590w,
 /static/TasmanDC-026151815973cf245b61ca255b684e43-86a48.jpg 624w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Glen Oroua Website]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://redstubble.com/project/glen-oroua-school/</link><guid isPermaLink="false">https://redstubble.com/project/glen-oroua-school/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
-&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich.”?
-(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-c3b2a.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 68.9%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD0klEQVQ4y0WT+VPTVxTFv9ahSLUKxJRF2VTKUggJEARpESgCCQQSUaQsVpZWlgQikISECDFEQEQKKLYunbbisFRKLRaSgAVE25ky0+kv7d/z6VN/6A9n5t7z7rnnvZl3JMmyjtS9hmT+FenKKlKPD8m2geTcIdjziqiRl8iHtgkbfknc2O/IPTti3ovUJeZNz5B61wjo/+0tZ/UjpTvnKJ5+jvbhLhUP/qR0epN0x2P26SyktE9RefMp56a8VLsXyLZ/T6btO4onfNQ92qVh/m/MP/+DxvUY3cQK+klh4HG6WH7mo9XUz3XXDUwNLWgLNRgK8um8dIkvmtuw9znpau+iuamZq11dvLg3xr9bXuaeLDM5NcOZvE/xrz7lr1fidYrKJkqrW4j8IBareUAIbCQmKOlut+C8PcvhvEpaz1ZgrKnGeM5AS7qa5c5KltxWLKYr5JwuISb2Q1xuD66bXyGl5Zwm/EQqe/ftJze3hObqOhISUikp1KI31FJ7sYORXid2Ux/D/XZKVEruGM3c6zTT0dxIclIKmtwc4pNTyFTnIpVlqUmMSeRQwEEiD8hRivrkiQQyomM4Lo8iOeYjKgqKOFuqZ6ipHavBgFmro0bcTJGURFZaLjnJaqKDQjgSHIakalBwVBNNdNkxIrVxRGhjyPhMgaYlB+UlNVGGeBKrk4ivVRFfr6ao/SQFxjzCyuM5UnqUcE0chwojkBdFcEx/HEm2oES+qEL2REnIkoLQ+RQOzytI+SmfzJVS1P5yMn06MnzlotaRuVpGtujjVk5x5JdsZMsqoVMiW1QSsahGkv+QjmxWScx0Frpvv8S8O0XdppOaHTunlqpQTOSjf1DB+bt6NNd15D3UUzx+njPDVRQOl5I/WkTazCfIHqmIfJSFFDabSOhSAkpnOuX5pzDbugUGcIzNUHP7c8aNejz2NkZdPcwY2yh2aakfqMBsvIBn4hqTpg4uj9cR+mMCUXMKpJCvqwj8ppIzU51Yei0CJq60NXG5sZbcgWomx51UuAcYfHiX+8NTFDlaMUxcpGmkkaZhE53uVson6zlw/zxh9y4gSb1bIjZbyAdfkHFrh+ih50Rf83LMvUbEwHNS7QsEd88TZHtKkHWFoL51Um/sEO7y8p59mWDnEgccIrrd2wTYtpH22ERjXUXu2iB59AV7+0QeLeLH93g5eHWDj+/sorr1B4GOjTd8YL+fxNFtYj3byAY3ed+5KfSv87/Kuw7v64U+Qq/6kQmEDa6zz+Fnj837Bu+Is0C7T3A+YSREVu9bWNb+rwX29nkJcfrZL8z+A7H9VJ+8kh1ZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Website&quot;
-        title=&quot;&quot;
-        src=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-fb8a0.png&quot;
-        srcset=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-1a291.png 148w,
-/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-2bc4a.png 295w,
-/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-fb8a0.png 590w,
-/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-526de.png 885w,
-/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-c3b2a.png 1000w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -283,6 +261,46 @@ way. On her way she met a copy.&lt;/p&gt;
 /static/PSA-5361e4c166075389e3a5b3f6b95c2fa4-2bc4a.png 295w,
 /static/PSA-5361e4c166075389e3a5b3f6b95c2fa4-fb8a0.png 590w,
 /static/PSA-5361e4c166075389e3a5b3f6b95c2fa4-d095c.png 862w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Glen Oroua Website]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://redstubble.com/project/glen-oroua-school/</link><guid isPermaLink="false">https://redstubble.com/project/glen-oroua-school/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-c3b2a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 68.9%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD0klEQVQ4y0WT+VPTVxTFv9ahSLUKxJRF2VTKUggJEARpESgCCQQSUaQsVpZWlgQikISECDFEQEQKKLYunbbisFRKLRaSgAVE25ky0+kv7d/z6VN/6A9n5t7z7rnnvZl3JMmyjtS9hmT+FenKKlKPD8m2geTcIdjziqiRl8iHtgkbfknc2O/IPTti3ovUJeZNz5B61wjo/+0tZ/UjpTvnKJ5+jvbhLhUP/qR0epN0x2P26SyktE9RefMp56a8VLsXyLZ/T6btO4onfNQ92qVh/m/MP/+DxvUY3cQK+klh4HG6WH7mo9XUz3XXDUwNLWgLNRgK8um8dIkvmtuw9znpau+iuamZq11dvLg3xr9bXuaeLDM5NcOZvE/xrz7lr1fidYrKJkqrW4j8IBareUAIbCQmKOlut+C8PcvhvEpaz1ZgrKnGeM5AS7qa5c5KltxWLKYr5JwuISb2Q1xuD66bXyGl5Zwm/EQqe/ftJze3hObqOhISUikp1KI31FJ7sYORXid2Ux/D/XZKVEruGM3c6zTT0dxIclIKmtwc4pNTyFTnIpVlqUmMSeRQwEEiD8hRivrkiQQyomM4Lo8iOeYjKgqKOFuqZ6ipHavBgFmro0bcTJGURFZaLjnJaqKDQjgSHIakalBwVBNNdNkxIrVxRGhjyPhMgaYlB+UlNVGGeBKrk4ivVRFfr6ao/SQFxjzCyuM5UnqUcE0chwojkBdFcEx/HEm2oES+qEL2REnIkoLQ+RQOzytI+SmfzJVS1P5yMn06MnzlotaRuVpGtujjVk5x5JdsZMsqoVMiW1QSsahGkv+QjmxWScx0Frpvv8S8O0XdppOaHTunlqpQTOSjf1DB+bt6NNd15D3UUzx+njPDVRQOl5I/WkTazCfIHqmIfJSFFDabSOhSAkpnOuX5pzDbugUGcIzNUHP7c8aNejz2NkZdPcwY2yh2aakfqMBsvIBn4hqTpg4uj9cR+mMCUXMKpJCvqwj8ppIzU51Yei0CJq60NXG5sZbcgWomx51UuAcYfHiX+8NTFDlaMUxcpGmkkaZhE53uVson6zlw/zxh9y4gSb1bIjZbyAdfkHFrh+ih50Rf83LMvUbEwHNS7QsEd88TZHtKkHWFoL51Um/sEO7y8p59mWDnEgccIrrd2wTYtpH22ERjXUXu2iB59AV7+0QeLeLH93g5eHWDj+/sorr1B4GOjTd8YL+fxNFtYj3byAY3ed+5KfSv87/Kuw7v64U+Qq/6kQmEDa6zz+Fnj837Bu+Is0C7T3A+YSREVu9bWNb+rwX29nkJcfrZL8z+A7H9VJ+8kh1ZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Website&quot;
+        title=&quot;&quot;
+        src=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-fb8a0.png&quot;
+        srcset=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-1a291.png 148w,
+/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-2bc4a.png 295w,
+/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-fb8a0.png 590w,
+/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-526de.png 885w,
+/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-c3b2a.png 1000w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;

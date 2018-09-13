@@ -10,9 +10,17 @@ frameworks: 'Linux(Centos, Ubuntu). Silverstripe'
 period: 'Sep 2013-Sep 2015 (Full-Time) && May 2018 - Current (Contract)'
 ---
 
-Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMSenvironment. Work included liaising with clients to functionality of proposed websites andcorresponding price points. Also joint lead in the linux server environment (Bash) usingVirtualmin maintaining sites, email servers etc.Silverstripe (PHP), Dev Ops (Linux Server, Bash, Virtualmin), JS, SASS, HTML
+# Role
+Contract developing and support existing Council business systems and applications.
+Design and develop custom databases and applications as required by Council staff and
+as directed by the senior members of the Business Systems team.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+## Technologies
+ASP<span></span>.NET (C#). Silverstripe (PHP), Javascript, SQL, MySQL, TFS, Git
+
+## Company
+[Tasman District Council](http://www.tasman.govt.nz) is a public benefit entity whose primary objective is to provide goods and services for community or social benefit. This page explains the Council's role and responsibilities.
+
+Councils are required to make decisions and set directions for promoting the social, cultural, environmental and economic wellbeing of their communities. They also have a responsibility to lead, provide for and contribute to the good governance of their communities.
 
 ![TDC Logo](./TasmanDC.jpg)

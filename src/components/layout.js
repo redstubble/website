@@ -17,7 +17,7 @@ class Template extends React.Component {
     const { location, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     return (
-      <div>
+      <div style={{marginBottom:'20px'}}>
       <Header />
       <div style={{ margin: '15px 0' }}>
         <LineBreak />

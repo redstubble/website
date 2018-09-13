@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button } from 'semantic-ui-react'
+import { Button, Icon } from 'semantic-ui-react'
 import ReactCardFlip from 'react-card-flip'
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
@@ -9,8 +9,8 @@ import PageType from '../../utils/pageType'
 import { updatePageState, updatePostState } from '../../redux-actions'
 
 class NavItem extends React.Component {
-  render({ type, title, color } = this.props) {
-    if (type) {
+  render({ post, type, title, color } = this.props) {
+    if (!post) {
       return (
         <ReactCardFlip
           isFlipped={this.props.page === this.props.type}
@@ -60,7 +60,32 @@ class NavItem extends React.Component {
         </ReactCardFlip>
       )
     }
-    return <div />
+    return   <Button
+                inverted
+            style={{
+              borderRadius: '3.5rem',
+              color: color,
+              backgroundColor: 'white',
+              borderWidth: '3px',
+              borderStyle: 'solid',
+              borderColor: color,
+            }}
+            size="large"
+    onClick={() => {
+              if (!this.props.post) {
+                this.props.dispatchPageState(PageType.index)
+              }
+              this.props.dispatchPostState(null)
+              if (window.location.pathname !== '/') {
+                navigate('/');
+              }
+            }}
+    labelPosition="left"
+    icon
+  >
+    {title}
+    <Icon name="left arrow" />
+  </Button>
   }
 }
 

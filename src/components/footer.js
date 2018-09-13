@@ -34,7 +34,7 @@ export default () => (
           <RedLabel>C#</RedLabel>
           <RedLabel>PHP</RedLabel>
           <RedLabel>SQL</RedLabel>
-          <RedLabel as="a">MYSQL</RedLabel>
+          <RedLabel>MYSQL</RedLabel>
         </Label.Group>
       </Grid.Column>
       <Grid.Column
@@ -45,11 +45,11 @@ export default () => (
         style={{ height: '5rem' }}
       >
         <Label.Group>
-          <OrangeLabel as="a">React</OrangeLabel>
-          <OrangeLabel as="a">React Native</OrangeLabel>
-          <OrangeLabel as="a">Silverstripe</OrangeLabel>
-          <OrangeLabel as="a">ASP.NET</OrangeLabel>
-          <OrangeLabel as="a">Linux</OrangeLabel>
+          <OrangeLabel>React</OrangeLabel>
+          <OrangeLabel>React Native</OrangeLabel>
+          <OrangeLabel>Silverstripe</OrangeLabel>
+          <OrangeLabel>ASP.NET</OrangeLabel>
+          <OrangeLabel>Linux</OrangeLabel>
         </Label.Group>
       </Grid.Column>
       <BlueLabel

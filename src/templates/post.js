@@ -11,7 +11,6 @@ class PostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = post.excerpt
-    const { previous, next } = this.props.pageContext
 
     return (
       <Layout location={this.props.location}>
@@ -21,41 +20,12 @@ class PostTemplate extends React.Component {
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
         <Container>
-        <h1 style={{textAlign:'center', margin: '15px 0' }}>{post.frontmatter.title}</h1>
+        {/* <h1 style={{textAlign:'center', margin: '15px 0' }}>{post.frontmatter.title}</h1> */}
+        <div style={{margin: '20px 0'}}>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <ul
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-            padding: 0,
-          }}
-        >
-          {previous && (
-            <li>
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            </li>
-          )}
 
-          {next && (
-            <li>
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            </li>
-          )}
-        </ul>
+        </div>
 </Container>
-
-
       </Layout>
     )
   }

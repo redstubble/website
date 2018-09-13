@@ -56,9 +56,7 @@ export default () => (
               PageLink={node.fields.slug}
               type={PageType['projects']}
             />
-            <small>{node.frontmatter.date}</small>
-            <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-          </Grid.Column>
+        </Grid.Column>
         )
       })
 

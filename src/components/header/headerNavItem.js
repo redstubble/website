@@ -72,10 +72,10 @@ class NavItem extends React.Component {
             }}
             size="large"
     onClick={() => {
+      this.props.dispatchPostState(null)
               if (!this.props.post) {
                 this.props.dispatchPageState(PageType.index)
               }
-              this.props.dispatchPostState(null)
               if (window.location.pathname !== '/') {
                 navigate('/');
               }

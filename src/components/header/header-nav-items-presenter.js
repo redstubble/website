@@ -7,7 +7,6 @@ import PageType from '../../utils/pageType'
 
 class NavItems extends Component {
   renderItems = (obj) => {
-    debugger;
     return Object.entries(obj).map(e => {
       const entry = e[1];
       return (

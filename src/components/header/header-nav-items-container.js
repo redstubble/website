@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import { connect } from 'react-redux'
 import NavItems from './header-nav-items-presenter'
 import { red, blue, orange } from '../../utils/colors'
+import PageType from '../../utils/pageType'
 
 
 class NavItemsContainer extends Component {
@@ -10,17 +11,17 @@ class NavItemsContainer extends Component {
         Projects: {
           title: 'Projects',
           color: red,
-          pageType: 'projects',
+          pageType: PageType.projects,
         },
         Experience: {
           title: 'Experience',
           color: blue,
-          pageType: 'experiences',
+          pageType: PageType.experiences,
         },
         Resume: {
           title: 'Resume',
           color: orange,
-          pageType: 'resume',
+          pageType: PageType.resume,
         }
     },
     post: {

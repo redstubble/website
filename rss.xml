@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Redstubble]]></title><description><![CDATA[Website]]></description><link>https://redstubble.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 13 Sep 2018 01:17:38 GMT</lastBuildDate><item><title><![CDATA[Core TT]]></title><description><![CDATA[Role Developing software for SAAS with Azure cloud, mapping and implementing new cargo
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Redstubble]]></title><description><![CDATA[Website]]></description><link>https://redstubble.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 13 Sep 2018 01:57:44 GMT</lastBuildDate><item><title><![CDATA[Core TT]]></title><description><![CDATA[Role Developing software for SAAS with Azure cloud, mapping and implementing new cargo
 tracking solutions. Managing MVC architecture…]]></description><link>https://redstubble.com/experience/core-tt/</link><guid isPermaLink="false">https://redstubble.com/experience/core-tt/</guid><content:encoded>&lt;h1&gt;Role&lt;/h1&gt;
 &lt;p&gt;Developing software for SAAS with Azure cloud, mapping and implementing new cargo
 tracking solutions. Managing MVC architecture, updating existing applications. Lead on
@@ -10,7 +10,7 @@ implementing visualisation tools D3.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-c3353.png&quot;
+    href=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-a8b53.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -18,7 +18,7 @@ implementing visualisation tools D3.&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 402px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 200px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -29,11 +29,14 @@ implementing visualisation tools D3.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Core TT&quot;
         title=&quot;&quot;
-        src=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-c3353.png&quot;
-        srcset=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-19ba3.png 148w,
-/static/CoreLogo-434b53c7380b03103616526bc192f2bf-e1d1e.png 295w,
-/static/CoreLogo-434b53c7380b03103616526bc192f2bf-c3353.png 402w&quot;
-        sizes=&quot;(max-width: 402px) 100vw, 402px&quot;
+        src=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-8c763.png&quot;
+        srcset=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-4ed52.png 50w,
+/static/CoreLogo-434b53c7380b03103616526bc192f2bf-630b4.png 100w,
+/static/CoreLogo-434b53c7380b03103616526bc192f2bf-8c763.png 200w,
+/static/CoreLogo-434b53c7380b03103616526bc192f2bf-d52ef.png 300w,
+/static/CoreLogo-434b53c7380b03103616526bc192f2bf-961b5.png 400w,
+/static/CoreLogo-434b53c7380b03103616526bc192f2bf-a8b53.png 402w&quot;
+        sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -50,7 +53,7 @@ environment. Work included liaising with clients to functionality of proposed we
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-8c50e.jpg&quot;
+    href=&quot;/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-2b400.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -58,7 +61,7 @@ environment. Work included liaising with clients to functionality of proposed we
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 200px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -69,13 +72,15 @@ environment. Work included liaising with clients to functionality of proposed we
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Hothouse Logo&quot;
         title=&quot;&quot;
-        src=&quot;/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-f8fb9.jpg&quot;
-        srcset=&quot;/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-e8976.jpg 148w,
-/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-63df2.jpg 295w,
-/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-f8fb9.jpg 590w,
-/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-85e3d.jpg 885w,
-/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-8c50e.jpg 1024w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-b4382.jpg&quot;
+        srcset=&quot;/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-44f1e.jpg 50w,
+/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-29c55.jpg 100w,
+/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-b4382.jpg 200w,
+/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-bf38c.jpg 300w,
+/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-2aa4f.jpg 400w,
+/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-e1645.jpg 600w,
+/static/HothouseLogo-897785f37b6b3425fcf101a64d6b30f9-2b400.jpg 1024w&quot;
+        sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -94,7 +99,7 @@ as directed by the senior members of the Business Systems team.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/TasmanDC-026151815973cf245b61ca255b684e43-86a48.jpg&quot;
+    href=&quot;/static/TasmanDC-026151815973cf245b61ca255b684e43-612ad.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -102,7 +107,7 @@ as directed by the senior members of the Business Systems team.&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 200px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -113,12 +118,15 @@ as directed by the senior members of the Business Systems team.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;TDC Logo&quot;
         title=&quot;&quot;
-        src=&quot;/static/TasmanDC-026151815973cf245b61ca255b684e43-f8fb9.jpg&quot;
-        srcset=&quot;/static/TasmanDC-026151815973cf245b61ca255b684e43-e8976.jpg 148w,
-/static/TasmanDC-026151815973cf245b61ca255b684e43-63df2.jpg 295w,
-/static/TasmanDC-026151815973cf245b61ca255b684e43-f8fb9.jpg 590w,
-/static/TasmanDC-026151815973cf245b61ca255b684e43-86a48.jpg 624w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/TasmanDC-026151815973cf245b61ca255b684e43-b4382.jpg&quot;
+        srcset=&quot;/static/TasmanDC-026151815973cf245b61ca255b684e43-44f1e.jpg 50w,
+/static/TasmanDC-026151815973cf245b61ca255b684e43-29c55.jpg 100w,
+/static/TasmanDC-026151815973cf245b61ca255b684e43-b4382.jpg 200w,
+/static/TasmanDC-026151815973cf245b61ca255b684e43-bf38c.jpg 300w,
+/static/TasmanDC-026151815973cf245b61ca255b684e43-2aa4f.jpg 400w,
+/static/TasmanDC-026151815973cf245b61ca255b684e43-e1645.jpg 600w,
+/static/TasmanDC-026151815973cf245b61ca255b684e43-612ad.jpg 624w&quot;
+        sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -132,7 +140,7 @@ as directed by the senior members of the Business Systems team.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-c3b2a.png&quot;
+    href=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-9b10f.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -140,7 +148,7 @@ as directed by the senior members of the Business Systems team.&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 200px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -151,13 +159,15 @@ as directed by the senior members of the Business Systems team.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;WebsiteImage&quot;
         title=&quot;&quot;
-        src=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-fb8a0.png&quot;
-        srcset=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-1a291.png 148w,
-/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-2bc4a.png 295w,
-/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-fb8a0.png 590w,
-/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-526de.png 885w,
-/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-c3b2a.png 1000w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-8c763.png&quot;
+        srcset=&quot;/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-4ed52.png 50w,
+/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-630b4.png 100w,
+/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-8c763.png 200w,
+/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-d52ef.png 300w,
+/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-961b5.png 400w,
+/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-18981.png 600w,
+/static/GlenOroua-1dc1b6b395fadd27084c814558d5ca5f-9b10f.png 1000w&quot;
+        sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;

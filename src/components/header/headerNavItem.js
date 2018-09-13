@@ -4,9 +4,12 @@ import { Button, Icon } from 'semantic-ui-react'
 import ReactCardFlip from 'react-card-flip'
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
-
 import PageType from '../../utils/pageType'
 import { updatePageState, updatePostState } from '../../redux-actions'
+
+const CustomIcon = styled(Icon)`
+  background-color:'#fff'
+`;
 
 class NavItem extends React.Component {
   render({ post, type, title, color } = this.props) {
@@ -65,10 +68,10 @@ class NavItem extends React.Component {
             style={{
               borderRadius: '3.5rem',
               color: color,
-              backgroundColor: 'white',
               borderWidth: '3px',
               borderStyle: 'solid',
               borderColor: color,
+              backgroundColor: '#fff'
             }}
             size="large"
     onClick={() => {
@@ -84,7 +87,8 @@ class NavItem extends React.Component {
     icon
   >
     {title}
-    <Icon name="left arrow" />
+    <CustomIcon style={{    backgroundColor: '#fff'
+}} name="left arrow" />
   </Button>
   }
 }

@@ -27,7 +27,7 @@ export default () => (
         tablet={8}
         computer={8}
         textAlign="center"
-        style={{ height: '5rem' }}
+        // style={{ height: '5rem' }}
       >
         <Label.Group>
           <RedLabel>JS</RedLabel>
@@ -42,7 +42,7 @@ export default () => (
         tablet={8}
         computer={8}
         textAlign="center"
-        style={{ height: '5rem' }}
+        // style={{ height: '5rem' }}
       >
         <Label.Group>
           <OrangeLabel>React</OrangeLabel>

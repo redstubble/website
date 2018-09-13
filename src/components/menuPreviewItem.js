@@ -19,6 +19,7 @@ class CodeCard extends Component {
         <Dimmer.Dimmable
           onMouseEnter={() => this.setHover(true)}
           onMouseLeave={() => this.setHover(false)}
+          onClick={() => this.setHover(!this.state.hover)}
           blurring
           dimmed={this.state.hover}
         >

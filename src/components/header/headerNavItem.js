@@ -9,7 +9,8 @@ import { updatePageState, updatePostState } from '../../redux-actions'
 
 const CustomIcon = styled(Icon)`
   background-color:'#fff';
-  border-bottom-left-radius:3.5rem
+  border-bottom-left-radius:3.5rem;
+  border-top-left-radius:3.5rem;
 `;
 
 const ButtonFront = styled(Button)`

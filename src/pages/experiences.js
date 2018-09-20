@@ -44,20 +44,13 @@ export default () => (
       const content = data.allMarkdownRemark.edges.map(({ node }) => {
         const title = get(node, 'frontmatter.title') || node.fields.slug
         return (
-          <Grid.Column
-            mobile={16}
-            tablet={8}
-            computer={5}
-            textAlign="center"
-            key={node.fields.slug}
-          >
             <PreviewItem
               ButtonTitle={title}
               ImgSrc={node.frontmatter.linkImage.publicURL}
               PageLink={node.fields.slug}
               type={PageType['experiences']}
+              key={node.fields.slug}
             />
-          </Grid.Column>
         )
       })
 

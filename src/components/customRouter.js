@@ -1,15 +1,20 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import Projects from '../pages/projects'
+import MDProjects from '../pages/projects'
 import Resume from '../pages/resume'
 import Experiences from '../pages/experiences'
 import PageType from '../utils/pageType'
-import { red, blue, orange } from '../utils/colors'
+import SandboxProject from '../components/sandbox-projects'
 
 class CustomRouter extends React.Component {
   getComponent() {
     if (this.props.page === PageType.index) return <div />
-    if (this.props.page === PageType.projects) return <Projects />
+    if (this.props.page === PageType.projects) return (
+      <React.Fragment>
+    <MDProjects />
+    <SandboxProject />
+      </React.Fragment>
+    )
     if (this.props.page === PageType.experiences)
       return <Experiences />
     if (this.props.page === PageType.resume) return <Resume />

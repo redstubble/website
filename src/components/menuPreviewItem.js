@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, Dimmer, Button } from 'semantic-ui-react'
+import { Grid, Card, Dimmer, Button } from 'semantic-ui-react'
 import { connect } from 'react-redux'
 import { navigate } from "gatsby"
 import { updatePostState, updatePageState } from '../redux-actions'
@@ -15,6 +15,12 @@ class CodeCard extends Component {
 
   render({ Type, PageLink, ButtonTitle, ImgSrc } = this.props) {
     return (
+      <Grid.Column
+      mobile={16}
+      tablet={8}
+      computer={5}
+      textAlign="center"
+    >
       <Card style={{ width: '100%' }}>
         <Dimmer.Dimmable
           onMouseEnter={() => this.setHover(true)}
@@ -40,6 +46,7 @@ class CodeCard extends Component {
           />
         </Dimmer.Dimmable>
       </Card>
+      </Grid.Column>
     )
   }
 }

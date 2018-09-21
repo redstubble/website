@@ -11,7 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
+importScripts("workbox-v3.6.1/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.6.1"});
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -25,47 +26,46 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-187ba1e03c7a89acb1d4.js"
+    "url": "webpack-runtime-86e45a301303ab001874.js"
   },
   {
-    "url": "app-24433d4a7c6d372460c0.js"
+    "url": "app-1b140bd5c857ccbe2887.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-17a8b5d42ebd493e4aa4.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-8ec963725a55c8de876d.js"
   },
   {
     "url": "index.html",
-    "revision": "8f5db919628db2cbfcc7660fe259b842"
+    "revision": "2c7688936ca7cf87fb9c4dcb2be04d9f"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "8daf602e2e78626911170ffebf6e43f8"
+    "revision": "273c9a1918e0806c36ad18070cf3373b"
   },
   {
-    "url": "component---src-pages-index-js.61e6e9a767191200cd2c.css",
-    "revision": "379fea85e68df29fb6e7509ee05937cb"
+    "url": "component---src-pages-index-js.d06bcbc5ac2a7e25fc02.css"
   },
   {
-    "url": "0-0680c5aadd992f8c44b4.js"
+    "url": "component---src-pages-index-js-cefa8020faf8dd462abe.js"
   },
   {
-    "url": "1-dbaf707247ca1594db80.js"
+    "url": "0-4900b4ec0fc6eadf2135.js"
   },
   {
-    "url": "component---src-pages-index-js-cb0b48ae2708da12db44.js"
+    "url": "1-7f5ecfd667748314f3ef.js"
   },
   {
-    "url": "3-2b0ff1dfffd01efeaebc.js"
+    "url": "3-1fdef26f37f27a7f0a14.js"
   },
   {
-    "url": "2-c609f38ad31b9f326f8a.js"
+    "url": "2-8f238d13010442b9919f.js"
   },
   {
     "url": "static/d/933/path---index-6a9-5GYDOSAWi0NugcHCf40gN8LaY.json",
     "revision": "b98223baf3f60b30e93a865d80b4586e"
   },
   {
-    "url": "component---src-pages-404-js-1883e4ce94d1c665f254.js"
+    "url": "component---src-pages-404-js-24a11d4add5e39579441.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -89,3 +89,24 @@ workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/inde
 });
 
 workbox.routing.registerRoute(/\.(?:png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https:/, workbox.strategies.networkFirst(), 'GET');
+"use strict";
+
+/* global workbox */
+self.addEventListener("message", function (event) {
+  var api = event.data.api;
+
+  if (api === "gatsby-runtime-cache") {
+    var resources = event.data.resources;
+    var cacheName = workbox.core.cacheNames.runtime;
+    event.waitUntil(caches.open(cacheName).then(function (cache) {
+      return Promise.all(resources.map(function (resource) {
+        return cache.add(resource).catch(function (e) {
+          // ignore TypeErrors - these are usually due to
+          // external resources which don't allow CORS
+          if (!(e instanceof TypeError)) throw e;
+        });
+      }));
+    }));
+  }
+});

@@ -1,51 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Redstubble]]></title><description><![CDATA[Website]]></description><link>https://redstubble.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Sep 2018 07:34:54 GMT</lastBuildDate><item><title><![CDATA[Core TT]]></title><description><![CDATA[Role Developing software for SAAS with Azure cloud, mapping and implementing new cargo
-tracking solutions. Managing MVC architecture…]]></description><link>https://redstubble.com/experience/core-tt/</link><guid isPermaLink="false">https://redstubble.com/experience/core-tt/</guid><content:encoded>&lt;h1&gt;Role&lt;/h1&gt;
-&lt;p&gt;Developing software for SAAS with Azure cloud, mapping and implementing new cargo
-tracking solutions. Managing MVC architecture, updating existing applications. Lead on
-implementing visualisation tools D3.&lt;/p&gt;
-&lt;h2&gt;Technologies&lt;/h2&gt;
-&lt;p&gt;ASP&lt;span&gt;.&lt;/span&gt;NET, ASP.Core (C#), Javascript (D3), SQL, Azure, TFS, Git&lt;/p&gt;
-&lt;h2&gt;Company&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.core-tt.com/&quot;&gt;Core Transport Technologies&lt;/a&gt; intends to shake up Transportation and Supply Chain Management with innovative technology solutions for tracking of cargo, postal products, and Unit Load Devices (ULD). Our goal is to disrupt old technology and put the power of big data analytics into the hands of the customer and at the same time the customer’s customer.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-a8b53.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 200px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 24.378109452736318%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAAuUlEQVQY053QPwuBURTH8WuQsiiLgSeKlORPj4GBotQjBpGMSgYpg8FoUsogYrEpgx1vRJksStm9Bt9TZ7E69Vnuvf3uOceY3/Kjig0uGJg/SkL6WOOEN25Yoocm8mihgwpKcFBDGQ3UkZHANh544YmrPhrpZz7MkIQXe30zxgJnTNGFJYEHfHDXDiMIY4eckhUUdR1HDJHFViebaGMuCXRjjhVCugYPUiggjqiObSOo91IBJJBGTA6+HtUdvazIzJcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Core TT&quot;
-        title=&quot;&quot;
-        src=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-8c763.png&quot;
-        srcset=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-4ed52.png 50w,
-/static/CoreLogo-434b53c7380b03103616526bc192f2bf-630b4.png 100w,
-/static/CoreLogo-434b53c7380b03103616526bc192f2bf-8c763.png 200w,
-/static/CoreLogo-434b53c7380b03103616526bc192f2bf-d52ef.png 300w,
-/static/CoreLogo-434b53c7380b03103616526bc192f2bf-961b5.png 400w,
-/static/CoreLogo-434b53c7380b03103616526bc192f2bf-a8b53.png 402w&quot;
-        sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hothouse]]></title><description><![CDATA[Role Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMS
-environment. Work included liaising with clients to…]]></description><link>https://redstubble.com/experience/hothouse/</link><guid isPermaLink="false">https://redstubble.com/experience/hothouse/</guid><content:encoded>&lt;h1&gt;Role&lt;/h1&gt;
-&lt;p&gt;Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMS
-environment. Work included liaising with clients to functionality of proposed websites and corresponding price points. Also joint lead in the linux server environment (Bash) using Virtualmin maintaining sites, email servers etc.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Redstubble]]></title><description><![CDATA[Website]]></description><link>https://redstubble.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Sep 2018 09:40:18 GMT</lastBuildDate><item><title><![CDATA[Hothouse]]></title><description><![CDATA[Role Built React Native application for PSA Members.
+Silverstripe v3/4 development, upgrading modules, adding additional functionality…]]></description><link>https://redstubble.com/experience/hothouse/</link><guid isPermaLink="false">https://redstubble.com/experience/hothouse/</guid><content:encoded>&lt;h1&gt;Role&lt;/h1&gt;
+&lt;p&gt;Built React Native application for PSA Members.
+Silverstripe v3/4 development, upgrading modules, adding additional functionality. Template styling
+as required by designers. Website server management, upgrades, server moves, linux
+configuration, DNS management.&lt;/p&gt;
 &lt;h2&gt;Technologies:&lt;/h2&gt;
 &lt;p&gt;Silverstripe (PHP), Dev Ops (Linux Server Bash, Virtualmin), JS, SASS, HTML&lt;/p&gt;
 &lt;h2&gt;Company&lt;/h2&gt;
@@ -86,11 +44,57 @@ environment. Work included liaising with clients to functionality of proposed we
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tasman District Council]]></title><description><![CDATA[Role Contract developing and support existing Council business systems and applications.
-Design and develop custom databases and…]]></description><link>https://redstubble.com/experience/tasman-district-council/</link><guid isPermaLink="false">https://redstubble.com/experience/tasman-district-council/</guid><content:encoded>&lt;h1&gt;Role&lt;/h1&gt;
-&lt;p&gt;Contract developing and support existing Council business systems and applications.
-Design and develop custom databases and applications as required by Council staff and
-as directed by the senior members of the Business Systems team.&lt;/p&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Core TT]]></title><description><![CDATA[Role Creating new front end solutions for cargo tracking around the globe. Researched and led in
+dashboard (gridstack.js) visualising…]]></description><link>https://redstubble.com/experience/core-tt/</link><guid isPermaLink="false">https://redstubble.com/experience/core-tt/</guid><content:encoded>&lt;h1&gt;Role&lt;/h1&gt;
+&lt;p&gt;Creating new front end solutions for cargo tracking around the globe. Researched and led in
+dashboard (gridstack.js) visualising historical tracking data using google visualisation tools and D3.
+Managed JS API with C# processors. Developed and managed processors which consumed tracking
+data from RabbitMQ event bus. Migrating SQL database and locally hosted server environment into
+Azure cloud.&lt;/p&gt;
+&lt;h2&gt;Technologies&lt;/h2&gt;
+&lt;p&gt;ASP&lt;span&gt;.&lt;/span&gt;NET, ASP.Core (C#), Javascript (D3), SQL, Azure, TFS, Git&lt;/p&gt;
+&lt;h2&gt;Company&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.core-tt.com/&quot;&gt;Core Transport Technologies&lt;/a&gt; intends to shake up Transportation and Supply Chain Management with innovative technology solutions for tracking of cargo, postal products, and Unit Load Devices (ULD). Our goal is to disrupt old technology and put the power of big data analytics into the hands of the customer and at the same time the customer’s customer.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-a8b53.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 24.378109452736318%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAAuUlEQVQY053QPwuBURTH8WuQsiiLgSeKlORPj4GBotQjBpGMSgYpg8FoUsogYrEpgx1vRJksStm9Bt9TZ7E69Vnuvf3uOceY3/Kjig0uGJg/SkL6WOOEN25Yoocm8mihgwpKcFBDGQ3UkZHANh544YmrPhrpZz7MkIQXe30zxgJnTNGFJYEHfHDXDiMIY4eckhUUdR1HDJHFViebaGMuCXRjjhVCugYPUiggjqiObSOo91IBJJBGTA6+HtUdvazIzJcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Core TT&quot;
+        title=&quot;&quot;
+        src=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-8c763.png&quot;
+        srcset=&quot;/static/CoreLogo-434b53c7380b03103616526bc192f2bf-4ed52.png 50w,
+/static/CoreLogo-434b53c7380b03103616526bc192f2bf-630b4.png 100w,
+/static/CoreLogo-434b53c7380b03103616526bc192f2bf-8c763.png 200w,
+/static/CoreLogo-434b53c7380b03103616526bc192f2bf-d52ef.png 300w,
+/static/CoreLogo-434b53c7380b03103616526bc192f2bf-961b5.png 400w,
+/static/CoreLogo-434b53c7380b03103616526bc192f2bf-a8b53.png 402w&quot;
+        sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tasman District Council]]></title><description><![CDATA[Role Building and maintaining processors to normalise building consent data (C#). Upgraded systems
+to consume environmental data and display…]]></description><link>https://redstubble.com/experience/tasman-district-council/</link><guid isPermaLink="false">https://redstubble.com/experience/tasman-district-council/</guid><content:encoded>&lt;h1&gt;Role&lt;/h1&gt;
+&lt;p&gt;Building and maintaining processors to normalise building consent data (C#). Upgraded systems
+to consume environmental data and display on Tasman TDC website. Maintaining existing
+systems. Lead developer for the Tasman District Council and Library website. ASP.NET (C#).&lt;/p&gt;
 &lt;h2&gt;Technologies&lt;/h2&gt;
 &lt;p&gt;ASP&lt;span&gt;&lt;/span&gt;.NET (C#). Silverstripe (PHP), Javascript, SQL, MySQL, TFS, Git&lt;/p&gt;
 &lt;h2&gt;Company&lt;/h2&gt;
@@ -132,9 +136,10 @@ as directed by the senior members of the Business Systems team.&lt;/p&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Glen Oroua Website]]></title><description><![CDATA[View:  Glen Oroua Website Glen Oroua School wanted a website with a focus on being easy to navigate and access information provided by the…]]></description><link>https://redstubble.com/project/glen-oroua-school/</link><guid isPermaLink="false">https://redstubble.com/project/glen-oroua-school/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;View: &lt;a href=&quot;http://www.glenoroua.school.nz/&quot;&gt;Glen Oroua Website&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Glen Oroua School wanted a website with a focus on being easy to navigate and access information provided by the school.&lt;/p&gt;
-&lt;p&gt;The site was made mobile friendly and provided events calendar, gallery, and multiple children and staff blogs using tags.&lt;/p&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Glen Oroua Website]]></title><description><![CDATA[Role: Sole Developer  Glen Oroua Website Involved in development of multiple sites as a developer for Hothouse, I was requested to build a…]]></description><link>https://redstubble.com/project/glen-oroua-school/</link><guid isPermaLink="false">https://redstubble.com/project/glen-oroua-school/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;Role:&lt;/h1&gt;
+&lt;p&gt;Sole Developer &lt;a href=&quot;http://www.glenoroua.school.nz/&quot;&gt;Glen Oroua Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Involved in development of multiple sites as a developer for Hothouse, I was requested to build a simple easy to navigate site for Glen Oroua School. The focus was being accessible for parents with various technical abilities.&lt;/p&gt;
+&lt;p&gt;The site was built from a mobile first approach and includes an events calendar, gallery, and multiple children and staff blogs using taxonomy.&lt;/p&gt;
 &lt;h2&gt;Technologies&lt;/h2&gt;
 &lt;p&gt;PHP, Silverstripe, MySql&lt;/p&gt;
 &lt;p&gt;
@@ -173,10 +178,11 @@ as directed by the senior members of the Business Systems team.&lt;/p&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[PSA Mobile App]]></title><description><![CDATA[View:  PSA Mobile App A member app was developed to allow PSA Members to access membership information. Technologies React, React Native…]]></description><link>https://redstubble.com/project/psa-app/</link><guid isPermaLink="false">https://redstubble.com/project/psa-app/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;View: &lt;a href=&quot;https://github.com/redstubble/react-native-PSA-App&quot;&gt;PSA Mobile App&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;A member app was developed to allow PSA Members to access membership information.&lt;/p&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[PSA Mobile App]]></title><description><![CDATA[Role: Sole Developer  PSA Mobile App Built a members app for PSA members to access membership information. This app includes saving state…]]></description><link>https://redstubble.com/project/psa-app/</link><guid isPermaLink="false">https://redstubble.com/project/psa-app/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;Role:&lt;/h1&gt;
+&lt;p&gt;Sole Developer &lt;a href=&quot;https://github.com/redstubble/react-native-PSA-App&quot;&gt;PSA Mobile App&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Built a members app for PSA members to access membership information. This app includes saving state and pdf’s to local storage. Stack, drawer and tab navigation features with portrait card view to swipe member details. The app allows users to access collective agreements pdf and access all content offline.&lt;/p&gt;
 &lt;h2&gt;Technologies&lt;/h2&gt;
-&lt;p&gt;React, React Native, ExpoKit&lt;/p&gt;
+&lt;p&gt;React, Redux, React Native, ExpoKit, Semantic UI&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/PSAApp1-65cb06b96acac1d533aeaacdd9dd76f4.gif&quot; alt=&quot;Part 1&quot;&gt;
 &lt;img src=&quot;/PSAApp2-f56147f5841b81e839fc04c0f56bd352.gif&quot; alt=&quot;Part 2&quot;&gt;
 &lt;img src=&quot;/PSAApp3-10a5e27b4af3ba6a06a7db8f6fec96b0.gif&quot; alt=&quot;Part 3&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>

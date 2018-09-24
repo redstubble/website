@@ -55,6 +55,7 @@ export default () => (
 
       return (
         <Container style={{ margin: '20px 0' }}>
+        <h3 style={{textAlign:'center'}}>Projects</h3>
           <Grid centered>{content}</Grid>
         </Container>
       )

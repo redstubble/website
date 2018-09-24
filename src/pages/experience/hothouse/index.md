@@ -11,8 +11,10 @@ period: 'Sep 2013-Sep 2015 (Full-Time) && May 2018 - Current (Contract)'
 ---
 
 # Role
-Developing websites using PHP, Javascript and MySQL stack in Silverstripe CMS
-environment. Work included liaising with clients to functionality of proposed websites and corresponding price points. Also joint lead in the linux server environment (Bash) using Virtualmin maintaining sites, email servers etc.
+Built React Native application for PSA Members.
+Silverstripe v3/4 development, upgrading modules, adding additional functionality. Template styling
+as required by designers. Website server management, upgrades, server moves, linux
+configuration, DNS management.
 
 ## Technologies: 
 Silverstripe (PHP), Dev Ops (Linux Server Bash, Virtualmin), JS, SASS, HTML

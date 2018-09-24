@@ -11,9 +11,9 @@ period: 'Sep 2013-Sep 2015 (Full-Time) && May 2018 - Current (Contract)'
 ---
 
 # Role
-Contract developing and support existing Council business systems and applications.
-Design and develop custom databases and applications as required by Council staff and
-as directed by the senior members of the Business Systems team.
+Building and maintaining processors to normalise building consent data (C#). Upgraded systems
+to consume environmental data and display on Tasman TDC website. Maintaining existing
+systems. Lead developer for the Tasman District Council and Library website. ASP.NET (C#).
 
 ## Technologies
 ASP<span></span>.NET (C#). Silverstripe (PHP), Javascript, SQL, MySQL, TFS, Git

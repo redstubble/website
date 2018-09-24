@@ -15,6 +15,7 @@ const CustomIcon = styled(Icon)`
 
 const ButtonFront = styled(Button)`
 &&& {
+  border-radius:inherit;
   border-radius: 3.5rem;
   color: #fff;
   background-color: ${props => props.colorprop};
@@ -27,6 +28,7 @@ const ButtonFront = styled(Button)`
 
 const ButtonBack = styled(ButtonFront)`
 &&& {
+border-radius:inherit;
 border-width: 3px;
 border-style: solid;
 border-color: ${props => props.colorprop};

@@ -11,9 +11,11 @@ period: 'Sep 2013-Sep 2015 (Full-Time) && May 2018 - Current (Contract)'
 ---
 
 # Role
-Developing software for SAAS with Azure cloud, mapping and implementing new cargo
-tracking solutions. Managing MVC architecture, updating existing applications. Lead on
-implementing visualisation tools D3.
+Creating new front end solutions for cargo tracking around the globe. Researched and led in
+dashboard (gridstack.js) visualising historical tracking data using google visualisation tools and D3.
+Managed JS API with C# processors. Developed and managed processors which consumed tracking
+data from RabbitMQ event bus. Migrating SQL database and locally hosted server environment into
+Azure cloud.
 
 ## Technologies
 ASP<span>.</span>NET, ASP.Core (C#), Javascript (D3), SQL, Azure, TFS, Git

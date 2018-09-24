@@ -6,11 +6,12 @@ linkImage: './GlenOroua.png'
 date: '2015-05-06T23:46:37.121Z'
 ---
 
-View: [Glen Oroua Website](http://www.glenoroua.school.nz/)
+# Role: 
+Sole Developer [Glen Oroua Website](http://www.glenoroua.school.nz/)
 
-Glen Oroua School wanted a website with a focus on being easy to navigate and access information provided by the school.
+Involved in development of multiple sites as a developer for Hothouse, I was requested to build a simple easy to navigate site for Glen Oroua School. The focus was being accessible for parents with various technical abilities.
 
-The site was made mobile friendly and provided events calendar, gallery, and multiple children and staff blogs using tags.
+The site was built from a mobile first approach and includes an events calendar, gallery, and multiple children and staff blogs using taxonomy.
 
 ## Technologies
 PHP, Silverstripe, MySql

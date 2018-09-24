@@ -40,7 +40,7 @@
     "prismjs": "^1.15.0",
     "react": "^16.4.2",
     "react-card-flip": "^0.2.1",
-    "react-d3-weather-graph": "https://github.com/redstubble/reactjs-d3-weather",
+    "react-d3-weather-graph": "github:redstubble/reactjs-d3-weather",
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.0.5",
@@ -64,7 +64,7 @@
     "gh-pages": "^1.1.0",
     "prettier": "^1.12.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://redstubble.com",
   "keywords": [
     "gatsby"
   ],
@@ -72,7 +72,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/redstubble/website"
   },
   "scripts": {
     "dev": "gatsby develop",

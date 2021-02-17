@@ -1,9 +1,12 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# using-typescript
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+https://using-typescript.gatsbyjs.org
 
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
+Demonstrates using TypeScript to build Gatsby sites.
 
-## Running in development
-`gatsby develop`
+Run `yarn develop`
+
+## Notes
+
+// https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/
+Redux, to add redux create gatsby-ssr.js & gatsby-browser.js and export wrapPageElement which is used in Gatsby hooks to wrap the page in redux

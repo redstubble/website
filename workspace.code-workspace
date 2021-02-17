@@ -1,0 +1,11 @@
+{
+  "folders": [
+		{
+			"path": "../gatsby-typescript"
+		},
+		{
+			"path": "../website"
+		}
+	],
+  "settings": {}
+}

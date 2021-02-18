@@ -37,10 +37,6 @@ const getPages = (): PageStructure => [
 ];
 
 function NavItemsCont() {
-  const [post, setPost] = useState({
-    color: colors.blue,
-  });
-
   return <NavItemsPresenter items={getPages()} />;
 }
 

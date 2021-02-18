@@ -13,25 +13,26 @@ function NavItemsPresenter({ items }: NavItemsPresProps) {
   const returnItems = () => {
     return items.map((it) => {
       const key = PageTypes[it.pageType];
-
-      <Grid.Column
-        key={key}
-        mobile={16}
-        tablet={5}
-        computer={4}
-        textAlign="center"
-        style={{ height: "5rem" }}
-      >
-        <NavItem
-          type={PageTypes[it.pageType]}
-          color={`${it.color}`}
-          title={`${it.title}`}
-        />
-      </Grid.Column>;
+      return (
+        <Grid.Column
+          key={key}
+          mobile={16}
+          tablet={5}
+          computer={4}
+          textAlign="center"
+          style={{ height: "5rem" }}
+        >
+          <NavItem
+            type={PageTypes[it.pageType]}
+            colorHex={`${it.color}`}
+            title={`${it.title}`}
+          />
+        </Grid.Column>
+      );
     });
   };
   return (
-    <Container style={{ padding: "20px" }}>
+    <Container className="NavItems-presenter" style={{ padding: "20px" }}>
       <Grid centered>{returnItems()}</Grid>
       <div
         style={{

@@ -2,10 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import { Button, Icon } from "semantic-ui-react";
 import ReactCardFlip from "react-card-flip";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { navigate } from "gatsby";
-import PageType from "../../utils/pageType";
-import { updatePageState, updatePostState } from "../../redux-actions";
+import { PageTypes } from "../../../utils/pageType";
+import { updatePageState, updatePostState } from "../../../redux-actions";
+import { RootState } from "../../../redux-reducer/init";
 
 const CustomIcon = styled(Icon)`
   background-color: "#fff";
@@ -31,50 +32,50 @@ const ButtonBack = styled(ButtonFront)`
     border-radius: inherit;
     border-width: 3px;
     border-style: solid;
-    border-color: ${(props: any) => props.colorprop};
-    color: ${(props: any) => props.colorprop};
+    border-color: ${(props: { colorprop: string }) => props.colorprop};
+    color: ${(props: { colorprop: string }) => props.colorprop};
     background-color: #fff;
     &:hover {
-      color: ${(props: any) => props.colorprop};
+      color: ${(props: { colorprop: string }) => props.colorprop};
       background-color: #fff;
     }
   }
 `;
 
 type NavItemProps = {
-  post: any;
-  type: any;
-  title: any;
-  color: any;
-  page: any;
+  type: PageTypes;
+  title: string;
+  colorHex: string;
 };
 
-function NavItem({ type, title, color, post, page }: NavItemProps) {
+function NavItem({ type, title, colorHex }: NavItemProps) {
+  const { currentPage, previousPage } = useSelector(
+    (a: RootState) => a.pageState
+  );
   const dispatch = useDispatch();
 
-  if (!post) {
+  if (previousPage === PageTypes.index) {
     return (
-      <ReactCardFlip isFlipped={page === type}>
+      <ReactCardFlip isFlipped={currentPage === type}>
         <ButtonFront
-          colorprop={color}
+          colorprop={colorHex}
           key="front"
           size="large"
           onClick={() => {
-            dispatch(updatePostState(null));
+            console.log("click", currentPage, previousPage);
+            dispatch(updatePostState(currentPage));
             dispatch(updatePageState(type));
           }}
         >
           {title}
         </ButtonFront>
         <ButtonBack
-          colorprop={color}
+          colorprop={colorHex}
           key="back"
           size="large"
           onClick={() => {
-            if (!post) {
-              dispatch(updatePageState(PageType.index));
-            }
-            dispatch(updatePostState(null));
+            dispatch(updatePageState(PageTypes.index));
+            dispatch(updatePostState(PageTypes.index));
           }}
         >
           {title}
@@ -84,13 +85,12 @@ function NavItem({ type, title, color, post, page }: NavItemProps) {
   }
   return (
     <ButtonBack
-      colorprop={color}
+      colorprop={colorHex}
       size="large"
       onClick={() => {
-        dispatch(updatePostState(null));
-        if (!post) {
-          dispatch(updatePageState(PageType.index));
-        }
+        console.log("click", previousPage);
+        dispatch(updatePostState(PageTypes.index));
+        dispatch(updatePageState(PageTypes.index));
         if (window.location.pathname !== "/") {
           navigate("/");
         }

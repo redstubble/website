@@ -1,12 +1,12 @@
-import { PageProps } from "gatsby"
-import * as React from "react"
-import Layout from "../components/layout"
+import { PageProps } from "gatsby";
+import * as React from "react";
+import { MainLayout } from "../components/layout";
 
 const Error404Page: React.FC<PageProps> = () => (
-  <Layout>
+  <MainLayout location={undefined}>
     <h1>You are here!</h1>
     <h2>But nothing found for you #404</h2>
-  </Layout>
-)
+  </MainLayout>
+);
 
-export default Error404Page
+export default Error404Page;

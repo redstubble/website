@@ -15,5 +15,18 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-react-redux`,
+      options: {
+        pathToCreateStoreModule: "./src/redux-reducer/createStore",
+        serialize: {
+          space: 0,
+          isJSON: true,
+          unsafe: false,
+        },
+        cleanupOnClient: true,
+        windowKey: "__PRELOADED_STATE__",
+      },
+    },
   ],
 };

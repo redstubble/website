@@ -55,6 +55,7 @@ function NavItem({ type, title, colorHex }: NavItemProps) {
   const dispatch = useDispatch();
 
   if (previousPage === PageTypes.index) {
+    /** There is no previous page */
     return (
       <ReactCardFlip isFlipped={currentPage === type}>
         <ButtonFront
@@ -63,8 +64,8 @@ function NavItem({ type, title, colorHex }: NavItemProps) {
           size="large"
           onClick={() => {
             console.log("click", currentPage, previousPage);
-            dispatch(updatePostState(currentPage));
             dispatch(updatePageState(type));
+            dispatch(updatePostState(currentPage));
           }}
         >
           {title}
@@ -74,7 +75,7 @@ function NavItem({ type, title, colorHex }: NavItemProps) {
           key="back"
           size="large"
           onClick={() => {
-            dispatch(updatePageState(PageTypes.index));
+            dispatch(updatePageState(previousPage));
             dispatch(updatePostState(PageTypes.index));
           }}
         >
@@ -89,11 +90,11 @@ function NavItem({ type, title, colorHex }: NavItemProps) {
       size="large"
       onClick={() => {
         console.log("click", previousPage);
+        dispatch(updatePageState(previousPage));
         dispatch(updatePostState(PageTypes.index));
-        dispatch(updatePageState(PageTypes.index));
-        if (window.location.pathname !== "/") {
-          navigate("/");
-        }
+        // if (window.location.pathname !== "/") {
+        //   navigate("/");
+        // }
       }}
       labelPosition="left"
       icon
